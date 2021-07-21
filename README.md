@@ -1,4 +1,4 @@
-# Profile_Project_2_trial_3
+# Profile_Project_2
 ## Overview
 Plan: To attempt to make a project with:
     - three sections in main:
