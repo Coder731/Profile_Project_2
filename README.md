@@ -23,4 +23,4 @@ Plan: To attempt to make a project with:
 
 -![wireframe homepage](assets/images/homepage_wireframe.png)
 
-testing
+testing 2
