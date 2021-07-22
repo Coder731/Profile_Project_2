@@ -19,8 +19,7 @@ Plan: To attempt to make a project with:
 
 ## Wireframe
 
-## References
 
 -![wireframe homepage](assets/images/homepage_wireframe.png)
 
-testing 2
+## References
