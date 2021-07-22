@@ -43,8 +43,8 @@ header {
     /* Targets entire body */
     body {
         font-family: 'Roboto', sans-serif;
-        color: #3af568;
-        background: #2b2527;
+        color: blue;
+        background: white;
     }
 
     /* button */
@@ -57,13 +57,13 @@ header {
         /* turn off underline beneath button link */
         text-decoration: none;
         /* make button text green */
-        color: #3af568;
+        color: blue;
         /* optimise accessibility using large bold font */
         font-size: 1.45rem;
         font-weight:900;
         
         cursor: pointer;
-        border: #3af568 0.1em solid;
+        border: blue 0.1em solid;
         padding: 0.04em 0.4em;
         position: relative;
     /* Start Nested Credit Comment: Add 3 declarations from https://codepen.io/nikkipantony/pen/vWgjBw  */
@@ -80,8 +80,8 @@ header {
         /* so that text edges are clearly defined on mouse over: */
         text-shadow: none;
         /* invert button colors on mouse over: */
-        background: #3af568;
-        color: #2b2527;
+        background: blue;
+        color: white;
     }
 
 /* https://www.youtube.com/watch?v=6xNcXwC6ikQ&ab_channel=KevinPowell */
@@ -110,13 +110,13 @@ header {
         /* turn off underline beneath button link */
         text-decoration: none;
         /* make button text green */
-        color: #3af568;
+        color: blue;
         /* optimise accessibility using large bold font */
         font-size: 1.45rem;
         font-weight:900;
         
         cursor: pointer;
-        border: #3af568 0.1em solid;
+        border: blue 0.1em solid;
         padding: 0.04em 0.4em;
         position: relative;
     /* Start Nested Credit Comment: Add 3 declarations from https://codepen.io/nikkipantony/pen/vWgjBw  */
@@ -135,8 +135,8 @@ header {
         /* so that text edges are clearly defined on mouse over: */
         text-shadow: none;
         /* invert button colors on mouse over: */
-        background: #3af568;
-        color: #2b2527;
+        background: blue;
+        color: white;
     }
 
 /* https://www.youtube.com/watch?v=6xNcXwC6ikQ&ab_channel=KevinPowell */
@@ -164,13 +164,13 @@ header {
         /* turn off underline beneath button link */
         text-decoration: none;
         /* make button text green */
-        color: #3af568;
+        color: blue;
         /* optimise accessibility using large bold font */
         font-size: 1.45rem;
         font-weight:900;
         
         cursor: pointer;
-        border: #3af568 0.1em solid;
+        border: blue 0.1em solid;
         padding: 0.04em 0.4em;
         position: relative;
     /* Start Nested Credit Comment: Add 3 declarations from https://codepen.io/nikkipantony/pen/vWgjBw  */
@@ -189,8 +189,8 @@ header {
         /* so that text edges are clearly defined on mouse over: */
         text-shadow: none;
         /* invert button colors on mouse over: */
-        background: #3af568;
-        color: #2b2527;
+        background: blue;
+        color: white;
     }
 
 /* https://www.youtube.com/watch?v=6xNcXwC6ikQ&ab_channel=KevinPowell */
@@ -218,13 +218,13 @@ header {
         /* turn off underline beneath button link */
         text-decoration: none;
         /* make button text green */
-        color: #3af568;
+        color: blue;
         /* optimise accessibility using large bold font */
         font-size: 1.45rem;
         font-weight:900;
         
         cursor: pointer;
-        border: #3af568 0.1em solid;
+        border: blue 0.1em solid;
         padding: 0.04em 0.4em;
         position: relative;
     /* Start Nested Credit Comment: Add 3 declarations from https://codepen.io/nikkipantony/pen/vWgjBw  */
@@ -242,8 +242,8 @@ header {
         /* so that text edges are clearly defined on mouse over: */
         text-shadow: none;
         /* invert button colors on mouse over: */
-        background: #3af568;
-        color: #2b2527;
+        background: blue;
+        color: white;
 
     }
 
@@ -308,13 +308,13 @@ header {
             /* turn off underline beneath button link */
             text-decoration: none;
             /* make button text green */
-            color: #3af568;
+            color: blue;
             /* optimise accessibility using large bold font */
             font-size: 1.5rem;
             font-weight:900;
             
             cursor: pointer;
-            border: #3af568 0.1em solid;
+            border: blue 0.1em solid;
             padding: 0.04em 0.4em;
             position: relative;
         /* Start Nested Credit Comment: Add 3 declarations from https://codepen.io/nikkipantony/pen/vWgjBw  */
@@ -329,8 +329,8 @@ header {
             /* so that text edges are clearly defined on mouse over: */
             text-shadow: none;
             /* invert button colors on mouse over: */
-            background: #3af568;
-            color: #2b2527;
+            background: blue;
+            color: white;
         }
 
                 /* https://www.youtube.com/watch?v=6xNcXwC6ikQ&ab_channel=KevinPowell */
@@ -351,7 +351,7 @@ header {
     /* turn off underline beneath button link */
     text-decoration: none;
     /* make button text green */
-    color: #3af568;
+    color: blue;
     /* optimise accessibility using large bold font */
     font-size: 1.5rem;
     font-weight:900;
@@ -372,8 +372,8 @@ header {
     /* so that text edges are clearly defined on mouse over: */
     text-shadow: none;
     /* invert button colors on mouse over: */
-    background: #3af568;
-    color: #2b2527;
+    background: blue;
+    color: white;
 }
 
 /* https://www.youtube.com/watch?v=6xNcXwC6ikQ&ab_channel=KevinPowell */
@@ -447,12 +447,12 @@ nav {
 /* Create a neon button with a reflection using CSS */
 /* Kevin Powell */
 /* Declare colors using CSS variables and :root CSS pseudo-class */
-/* colors used:  green #3af568   background #2b2527*/
+/* colors used:  blue   background white*/
 
 /* Targets entire body */
 body {
     font-family: 'Roboto', sans-serif;
-    color: #3af568;
-    background: #2b2527;
+    color: blue;
+    background: white;
 }
 /* Credit Comment End Neon Button */
