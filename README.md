@@ -22,3 +22,11 @@ Plan: To attempt to make a project with:
 -![wireframe homepage](assets/images/homepage_wireframe.png)
 
 ## References
+
+
+
+- [Wikipedia MediaWiki JavaScript API](https://www.mediawiki.org/wiki/API:Search#JavaScript)
+
+- [Search Bar](https://www.w3schools.com/howto/howto_css_searchbar.asp)
+
+- [HTML DOM addEventListener Method](https://www.w3schools.com/jsref/met_element_addeventlistener.asp)
