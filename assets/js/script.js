@@ -29,3 +29,16 @@ fetch(url)
         }
     })
     .catch(function(error){console.log(error);});
+
+// Reference:
+// https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_search
+
+// set a html element equal to something:
+
+let str = "Visit  W3Schools!"; 
+document.getElementById("output").innerHTML = str.search("W3Schools");
+
+// rearrange:
+// document.getElementById("demo").innerHTML = 
+// RHS = inputted value in search bar
+
