@@ -42,3 +42,12 @@ document.getElementById("output").innerHTML = str.search("W3Schools");
 // document.getElementById("demo").innerHTML = 
 // RHS = inputted value in search bar
 
+// Reference Comment:
+// Simple Search in JavaScript [JavaScript Series]
+// https://www.youtube.com/watch?v=SWkPXbQXArk&t=1s
+
+const searchInput = document.getElementById('search');
+
+searchInput.addEventListener('input', (event) => {
+    console.log(event);
+});
