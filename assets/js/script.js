@@ -116,4 +116,18 @@ document.addEventListener('click', function (event) {
     // Call function, pass in ms time
     console.log(secondsToHms(e));
 
+    // log time of click:
+        // Reference Comment:
+        // Get current time in Hours24: Minutes: Seconds format in JavaScript
+        // https://www.includehelp.com/code-snippets/get-current-time-in-hours24-minutes-seconds-format-in-javascript.aspx
+        // (edited)
+
+        var dt = new Date(); //Date constructor 
+        var hh = dt.getHours();
+        var mm = dt.getMinutes();
+        var ss = dt.getSeconds();
+
+        // log time:
+        console.log("Current time is= " + hh + ":" + mm + ":" + ss);
+
 }, false);
