@@ -38,10 +38,6 @@ fetch(url)
 let str = "Visit  W3Schools!"; 
 document.getElementById("output").innerHTML = str.search("W3Schools");
 
-// rearrange:
-// document.getElementById("demo").innerHTML = 
-// RHS = inputted value in search bar
-
 // Reference Comment:
 // Simple Search in JavaScript [JavaScript Series]
 // https://www.youtube.com/watch?v=SWkPXbQXArk&t=1s
@@ -51,3 +47,17 @@ const searchInput = document.getElementById('search');
 searchInput.addEventListener('input', (event) => {
     console.log(event);
 });
+
+const userInput = document.getElementById('userinput');
+
+userInput.addEventListener("change", goWiki) 
+
+function goWiki() {
+        console.log(userInput);
+        console.log("TESTING");
+}
+
+// Reference Comment:
+// Coding Challenge #75: Wikipedia API
+// https://www.youtube.com/watch?v=RPz75gcHj18
+
