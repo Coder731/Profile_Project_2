@@ -10,6 +10,9 @@
         document.getElementById("demo").innerHTML = n;
     }
 
+    // https://www.w3docs.com/snippets/javascript/how-to-get-a-timestamp-in-javascript.html
+    let e = new Date().getTime()
+
 // Reference Comment:
 // How to convert seconds to minutes and hours in javascript
 // https://stackoverflow.com/questions/37096367/how-to-convert-seconds-to-minutes-and-hours-in-javascript
@@ -108,7 +111,6 @@ document.addEventListener('click', function (event) {
 	// Log the clicked element in the console
 	console.log(event.target);
     // https://www.w3docs.com/snippets/javascript/how-to-get-a-timestamp-in-javascript.html
-    let e = new Date().getTime()
     console.log('clicked on search bar 2' + e);
     console.log('clicked on search bar 2');
 
