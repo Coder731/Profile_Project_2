@@ -128,6 +128,6 @@ document.addEventListener('click', function (event) {
         var ss = dt.getSeconds();
 
         // log time:
-        console.log("Current time is= " + hh + ":" + mm + ":" + ss);
+        console.log("Current min:sec stamp is= " + mm + ":" + ss);
 
 }, false);
