@@ -17,7 +17,7 @@
 // How to convert seconds to minutes and hours in javascript
 // https://stackoverflow.com/questions/37096367/how-to-convert-seconds-to-minutes-and-hours-in-javascript
 
-let d = 
+// let d = 
 
     function secondsToHms(d) {
         d = Number(d);
@@ -31,6 +31,7 @@ let d =
         return hDisplay + mDisplay + sDisplay; 
     }
 
+secondsToHms();
 //  Reference:
 //  https://www.mediawiki.org/wiki/API:Search#JavaScript
 /*
@@ -111,5 +112,8 @@ document.addEventListener('click', function (event) {
     // https://www.w3docs.com/snippets/javascript/how-to-get-a-timestamp-in-javascript.html
     console.log('clicked on search bar 2' + e);
     console.log('clicked on search bar 2');
+
+    // Call function, pass in ms time
+    console.log(secondsToHms(e));
 
 }, false);
