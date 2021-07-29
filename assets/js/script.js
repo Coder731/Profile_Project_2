@@ -31,8 +31,6 @@ let d =
         return hDisplay + mDisplay + sDisplay; 
     }
 
-// console.log(hDisplay+':'+mDisplay+':'+sDisplay)
-
 //  Reference:
 //  https://www.mediawiki.org/wiki/API:Search#JavaScript
 /*
