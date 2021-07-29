@@ -17,13 +17,21 @@ Plan: To attempt to make a project with:
             - spreadsheet calculator for doing simple analysis of the company selected.
         - integrate all sections so that once a company is searched, the website updates with all relevant information in all sections at the same time
 
+## Development
+
+## Features
+
+- Two Search bars
+
+## Testing
+
+- Added capability to log date / time stamp(s) to the developer console.
+
 ## Wireframe
 
 -![wireframe homepage](assets/images/homepage_wireframe.png)
 
 ## References
-
-
 
 - [Wikipedia MediaWiki JavaScript API](https://www.mediawiki.org/wiki/API:Search#JavaScript)
 
