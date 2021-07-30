@@ -25,7 +25,7 @@ Plan: To attempt to make a project with:
 
 ## Testing
 
-- Added capability to log date / time stamp(s) to the developer console.
+- [TESTING.md](TESTING.md)
 
 ## Wireframe
 

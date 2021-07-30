@@ -69,7 +69,7 @@ fetch(url)
 
 // set a html element equal to something:
 
-let str = "Visit  W3Schools!"; 
+let str = "Visit W3Schools!"; 
 document.getElementById("output").innerHTML = str.search("W3Schools");
 
 // Reference Comment:
@@ -110,11 +110,7 @@ document.addEventListener('click', function (event) {
 	// Log the clicked element in the console
 	console.log(event.target);
     // https://www.w3docs.com/snippets/javascript/how-to-get-a-timestamp-in-javascript.html
-    console.log('clicked on search bar 2' + e);
     console.log('clicked on search bar 2');
-
-    // Call function, pass in ms time
-    console.log(secondsToHms(e));
 
     // log time of click:
         // Reference Comment:
