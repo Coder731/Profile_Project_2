@@ -107,8 +107,6 @@ document.addEventListener('click', function (event) {
 	// Don't follow the link
 	event.preventDefault();
 
-	// Log the clicked element in the console
-	console.log(event.target);
     // https://www.w3docs.com/snippets/javascript/how-to-get-a-timestamp-in-javascript.html
     console.log('clicked on search bar 2');
 
