@@ -1,5 +1,9 @@
 # Profile_Project_2 / Testing
 
+# Contents
+## Logging Time / Date to Console
+## References
+
 ## Logging Time / Date to Console
 
 - Added capability to log date / time stamp(s) to the developer console.
