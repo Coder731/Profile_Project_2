@@ -4,8 +4,7 @@
         var d = new Date();
         var n = d.getTime();
         document.getElementById("demo").innerHTML = n;                                          }
-    // (Reference (3))
-    let e = new Date().getTime()
+    let e = new Date().getTime()  // (Reference (3))
 // How to convert seconds to minutes and hours in javascript  (Reference (4))
     function secondsToHms(d) {
         d = Number(d);
