@@ -3,6 +3,14 @@
 # Contents
 ## Bugs
 ### Resolved
+#### Linking internally in README and TESTING files [Resolved]
+- Problem Part 1: How to create internal links from Table of Contents to relevant Headings
+- Solution:
+  - Step 1: Use references from Portfolio Project 1 for internal linking
+Problem Part 2: Link not working when clicked
+- Resolution: Change id selector, so that unique from actual heading text, not only in terms of case sensitivity but also with regard to spelling.
+
+
 ### Unresolved
 ## Logging to Console
 ### Logging Time / Date to Console
