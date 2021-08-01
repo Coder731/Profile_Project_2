@@ -36,7 +36,7 @@ document.addEventListener('click', function (event) {
     // (Reference (10))|log time of click|Get current time in Hours24: Minutes: Seconds format in JavaScript|(Reference(11))|(Reference (12))|Display minutes and seconds as two digits:
         var dt = new Date(); //Date constructor 
         var mm = (dt.getMinutes()<10?'0':'') + dt.getMinutes();        var ss = (dt.getSeconds()<10?'0':'') + dt.getSeconds();
-        console.log("Clicked on search bar 2 at Current min:sec of: " + mm + ":" + ss);  /*log click amd time:*/   }, false);
+        console.log("Clicked on search bar 2 at: " + mm + ":" + ss);  /*log click amd time:*/   }, false);
 /* References:
 1. https://www.w3schools.com/jsref/jsref_gettime.asp
 2. https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_gettime
