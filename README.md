@@ -66,6 +66,12 @@ Plan: To attempt to make a project with:
 
 - [Get current time in Hours24: Minutes: Seconds format in JavaScript](https://www.includehelp.com/code-snippets/get-current-time-in-hours24-minutes-seconds-format-in-javascript.aspx)
 
+#### JS Elements and Syntax
+
+##### JS Objects
+
+##### Destructure
+
 - Object destructure [Javascript object destructure with property name in variable](https://stackoverflow.com/questions/64895489/javascript-object-destructure-with-property-name-in-variable)
 
 - Mozilla Destructuring assignment syntax JavaScript to allow object unpacking. [Destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
