@@ -2,8 +2,8 @@
 
 # Contents
 ## Logging to Console
-## Logging Time / Date to Console
-## Logging Html code to Console
+### Logging Time / Date to Console
+### Logging Html code to Console
 ## References
 ### Logging Time Stamp to Console
 #### getTime Method
