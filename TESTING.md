@@ -1,6 +1,9 @@
 # Profile_Project_2 / Testing
 
 # Contents
+## Bugs
+### Resolved
+### Unresolved
 ## Logging to Console
 ### Logging Time / Date to Console
 ### Logging Html code to Console
