@@ -21,7 +21,7 @@ fetch(url)
     .then(function(response) {if (response.query.search[0].title==="Nelson Mandela"){console.log("Your search page 'Nelson Mandela' exists on English Wikipedia");  }  })
     .catch(function(error){console.log(error);});
 // set a html element equal to something:  (Reference(6))
-let str = "Visit W3Schools!"; 
+let str = "Visit  W3Schools!"; 
 document.getElementById("output").innerHTML = str.search("W3Schools");
 // Simple Search in JavaScript [JavaScript Series]  (Reference(7))
 const searchInput = document.getElementById('search');
