@@ -42,3 +42,10 @@
 #### Formatting Time Stamp
 - [getMinutes() 0-9 - How to display two digit numbers?](https://stackoverflow.com/questions/8935414/getminutes-0-9-how-to-display-two-digit-numbers)
 - [Get current time in Hours24: Minutes: Seconds format in JavaScript](https://www.includehelp.com/code-snippets/get-current-time-in-hours24-minutes-seconds-format-in-javascript.aspx)
+
+### Logging method to console
+
+- [Document get Element By Id](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
+- [Check if a get Element By Id is empty](https://stackoverflow.com/questions/43441082/check-if-a-getelementbyid-is-empty)
+- [JavaScript Tutorial for Beginners - 26 - get Element By Id method](https://youtu.be/h4-6JOQX9v4?t=325)
+- [How to check an object is empty using JavaScript?](https://www.geeksforgeeks.org/how-to-check-an-object-is-empty-using-javascript/)
