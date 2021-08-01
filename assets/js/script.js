@@ -1,5 +1,4 @@
-// JavaScript getTime() Method    // https://www.w3schools.com/jsref/jsref_gettime.asp
-// JavaScript getTime() Method    // Try It Yourself    // https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_gettime
+// JavaScript getTime() Method    // https://www.w3schools.com/jsref/jsref_gettime.asp    // JavaScript getTime() Method    // Try It Yourself    // https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_gettime
     function myFunction() {
         var d = new Date();
         var n = d.getTime();
@@ -16,8 +15,7 @@
         var mDisplay = m > 0 ? m + (m == 1 ? " minute, " : " minutes, ") : "";
         var sDisplay = s > 0 ? s + (s == 1 ? " second" : " seconds") : "";
         return hDisplay + mDisplay + sDisplay;                                                  }
-//  Reference:    //  https://www.mediawiki.org/wiki/API:Search#JavaScript
-/*  search.js    MediaWiki API Demos    Demo of `Search` module: Search for a text or title    MIT License    */
+//  Reference:    //  https://www.mediawiki.org/wiki/API:Search#JavaScript    /*  search.js    MediaWiki API Demos    Demo of `Search` module: Search for a text or title    MIT License    */
 var url = "https://en.wikipedia.org/w/api.php"; 
 var params = {
     action: "query",
@@ -48,8 +46,7 @@ function goWiki() {
         console.log(userInput);
         console.log("TESTING");
 }
-// Reference Comment:    // Coding Challenge #75: Wikipedia API    // https://www.youtube.com/watch?v=RPz75gcHj18
-// Reference Comment:    // The vanilla JS way to listen for click events    // https://gomakethings.com/listening-for-click-events-with-vanilla-javascript/#the-vanilla-js-way-to-listen-for-click-events
+// Reference Comment:    // Coding Challenge #75: Wikipedia API    // https://www.youtube.com/watch?v=RPz75gcHj18    // Reference Comment:    // The vanilla JS way to listen for click events    // https://gomakethings.com/listening-for-click-events-with-vanilla-javascript/#the-vanilla-js-way-to-listen-for-click-events
 document.addEventListener('click', function (event) {
 	// If the clicked element doesn't have the right selector, bail
 	if (!event.target.matches('.click-me')) return;
@@ -62,6 +59,5 @@ document.addEventListener('click', function (event) {
         var hh = dt.getHours();
         var mm = dt.getMinutes();
         var ss = dt.getSeconds();
-        // log time:
-        console.log("Current min:sec stamp is= " + mm + ":" + ss);
+        console.log("Current min:sec stamp is= " + mm + ":" + ss);        // log time:
 }, false);
