@@ -3,7 +3,7 @@
 # Contents
 ## [Overview](#overview-link) <a id="overview-link-contents"></a>
 ## [Development](#development-link) <a id="development-link-contents"></a>
-## Features
+## [Features](#features-link) <a id="features-link-contents"></a>
 ## Testing
 ## Wireframe
 ## References
@@ -37,7 +37,7 @@ Plan: To attempt to make a project with:
 
 ## [Development](#development-link-contents) <a id="development-link"></a>
 
-## Features
+## [Features](#features-link-contents) <a id="features-link"></a>>
 
 - Two Search bars
 
