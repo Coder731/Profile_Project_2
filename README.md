@@ -1,7 +1,7 @@
 # Profile_Project_2
 
 # Contents
-## [Overview](#overview_link)
+## [Overview](#overview-link)
 ## [Development](#development-link)
 ## Features
 ## Testing
@@ -16,7 +16,7 @@
 ### Git
 
 
-## Overview <a id="overview_link"></a>
+## Overview <a id="overview-link"></a>
 Plan: To attempt to make a project with:
     - three sections in main:
         -section one
@@ -34,7 +34,7 @@ Plan: To attempt to make a project with:
             - spreadsheet calculator for doing simple analysis of the company selected.
         - integrate all sections so that once a company is searched, the website updates with all relevant information in all sections at the same time
 
-## Development <a id="development_link"></a>
+## Development <a id="development-link"></a>
 
 ## Features
 
