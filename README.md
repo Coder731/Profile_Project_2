@@ -42,13 +42,17 @@ Plan: To attempt to make a project with:
 
 ## References
 
-## Search
+### Search
 
 - [Wikipedia MediaWiki JavaScript API](https://www.mediawiki.org/wiki/API:Search#JavaScript)
 
 - [Search Bar](https://www.w3schools.com/howto/howto_css_searchbar.asp)
 
+#### DOM Event Listener
+
 - [HTML DOM addEventListener Method](https://www.w3schools.com/jsref/met_element_addeventlistener.asp)
+
+### Logging Time Stamp to Console
 
 - [How to convert seconds to minutes and hours in javascript](https://stackoverflow.com/questions/37096367/how-to-convert-seconds-to-minutes-and-hours-in-javascript)
 
