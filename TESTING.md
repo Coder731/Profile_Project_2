@@ -10,7 +10,7 @@
 #### Formatting Time Stamp
 ### Logging method to console
 
-
+# Main Body
 ## Logging to Console
 
 ### Logging Time / Date to Console
