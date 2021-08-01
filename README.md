@@ -13,6 +13,8 @@
 #### [JS Elements and Syntax](#js-elements-and-syntax-link) <a id="js-elements-and-syntax-link-contents"></a>
 ##### [JS Objects](#js-objects-link) <a id="js-objects-link-contents"></a>
 ##### [Destructure](#destructure-link) <a id="destructure-link-contents"></a>
+### [README](#readme-link) <a id="readme-link-contents"></a>
+#### [Internal README links](#internal-readme-links-link) <a id="internal-readme-links-link-contents"></a>
 ### [Git](#git-link) <a id="git-link-contents"></a>
 
 
