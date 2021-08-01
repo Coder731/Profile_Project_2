@@ -3,6 +3,9 @@
 # Contents
 ## Logging Time / Date to Console
 ## References
+#### getTime Method
+#### Formatting Time Stamp
+
 
 ## Logging Time / Date to Console
 
