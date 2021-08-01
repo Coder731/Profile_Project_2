@@ -50,3 +50,4 @@ Plan: To attempt to make a project with:
 - [JavaScript getTime() Method Try It Yourself](https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_gettime)
 
 - [Get current time in Hours24: Minutes: Seconds format in JavaScript](https://www.includehelp.com/code-snippets/get-current-time-in-hours24-minutes-seconds-format-in-javascript.aspx)
+

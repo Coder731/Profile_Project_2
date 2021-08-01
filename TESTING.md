@@ -8,3 +8,7 @@
 - Why?: using methods to extract hours minutes and seconds from Date object instead.
 
 - Removing duplicate string log to console for click event.
+
+## References
+
+- Use inline if statement to format display of minutes and seconds as double digits when logging partial time stamp to the developer console.  [Conditional (ternary) Operator](https://stackoverflow.com/questions/10270351/how-to-write-an-inline-if-statement-in-javascript)
