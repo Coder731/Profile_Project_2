@@ -62,6 +62,8 @@ Plan: To attempt to make a project with:
 
 - Object destructure [Javascript object destructure with property name in variable](https://stackoverflow.com/questions/64895489/javascript-object-destructure-with-property-name-in-variable)
 
+- Mozilla Destructuring assignment syntax JavaScript to allow object unpacking. [Destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+
 ### Git
 
 - [History or log of commands executed in Git](https://stackoverflow.com/questions/7435452/history-or-log-of-commands-executed-in-git)
