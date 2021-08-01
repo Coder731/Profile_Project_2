@@ -16,7 +16,6 @@
         var mDisplay = m > 0 ? m + (m == 1 ? " minute, " : " minutes, ") : "";
         var sDisplay = s > 0 ? s + (s == 1 ? " second" : " seconds") : "";
         return hDisplay + mDisplay + sDisplay;                                                  }
-secondsToHms();
 //  Reference:    //  https://www.mediawiki.org/wiki/API:Search#JavaScript
 /*  search.js    MediaWiki API Demos    Demo of `Search` module: Search for a text or title    MIT License    */
 var url = "https://en.wikipedia.org/w/api.php"; 
@@ -24,8 +23,7 @@ var params = {
     action: "query",
     list: "search",
     srsearch: "Nelson Mandela",
-    format: "json"
-};
+    format: "json"                              };
 url = url + "?origin=*";
 Object.keys(params).forEach(function(key){url += "&" + key + "=" + params[key];});
 fetch(url)
