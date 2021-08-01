@@ -59,11 +59,11 @@ Plan: To attempt to make a project with:
 
 - [HTML DOM addEventListener Method](https://www.w3schools.com/jsref/met_element_addeventlistener.asp)
 
+- [The vanilla JS way to listen for click events](https://gomakethings.com/listening-for-click-events-with-vanilla-javascript/#the-vanilla-js-way-to-listen-for-click-events)
+
 ### Logging Time Stamp to Console
 
 - [How to convert seconds to minutes and hours in javascript](https://stackoverflow.com/questions/37096367/how-to-convert-seconds-to-minutes-and-hours-in-javascript)
-
-- [The vanilla JS way to listen for click events](https://gomakethings.com/listening-for-click-events-with-vanilla-javascript/#the-vanilla-js-way-to-listen-for-click-events)
 
 - [How to Get a Timestamp in JavaScript](https://www.w3docs.com/snippets/javascript/how-to-get-a-timestamp-in-javascript.html)
 
