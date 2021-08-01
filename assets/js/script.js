@@ -35,9 +35,7 @@ function goWiki() {
 document.addEventListener('click', function (event) {
 	if (!event.target.matches('.click-me')) return;  // If the clicked element doesn't have the right selector, bail
 	event.preventDefault();  // Don't follow the link
-    // (Reference (10))
-    console.log('clicked on search bar 2');
-    // log time of click:        // Get current time in Hours24: Minutes: Seconds format in JavaScript        // (edited)  (Reference(11))
+    // (Reference (10))    // log time of click:        // Get current time in Hours24: Minutes: Seconds format in JavaScript        // (edited)  (Reference(11))
         var dt = new Date(); //Date constructor 
         var mm = dt.getMinutes();        var ss = dt.getSeconds();
         console.log("Clicked on search bar 2 at Current min:sec of: " + mm + ":" + ss);  /*log click amd time:*/   }, false);
