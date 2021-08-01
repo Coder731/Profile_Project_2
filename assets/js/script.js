@@ -3,8 +3,7 @@
     function myFunction() {
         var d = new Date();
         var n = d.getTime();
-        document.getElementById("demo").innerHTML = n;
-    }
+        document.getElementById("demo").innerHTML = n;                                          }
     // https://www.w3docs.com/snippets/javascript/how-to-get-a-timestamp-in-javascript.html
     let e = new Date().getTime()
 // Reference Comment:    // How to convert seconds to minutes and hours in javascript    // https://stackoverflow.com/questions/37096367/how-to-convert-seconds-to-minutes-and-hours-in-javascript
@@ -13,12 +12,10 @@
         var h = Math.floor(d / 3600);
         var m = Math.floor(d % 3600 / 60);
         var s = Math.floor(d % 3600 % 60);
-
         var hDisplay = h > 0 ? h + (h == 1 ? " hour, " : " hours, ") : "";
         var mDisplay = m > 0 ? m + (m == 1 ? " minute, " : " minutes, ") : "";
         var sDisplay = s > 0 ? s + (s == 1 ? " second" : " seconds") : "";
-        return hDisplay + mDisplay + sDisplay; 
-    }
+        return hDisplay + mDisplay + sDisplay;                                                  }
 secondsToHms();
 //  Reference:    //  https://www.mediawiki.org/wiki/API:Search#JavaScript
 /*  search.js    MediaWiki API Demos    Demo of `Search` module: Search for a text or title    MIT License    */
