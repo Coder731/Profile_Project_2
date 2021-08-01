@@ -70,6 +70,17 @@ Plan: To attempt to make a project with:
 - Object destructure [Javascript object destructure with property name in variable](https://stackoverflow.com/questions/64895489/javascript-object-destructure-with-property-name-in-variable)
 - Mozilla Destructuring assignment syntax JavaScript to allow object unpacking. [Destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
 
+### README
+
+#### Internal README links
+
+- [Portfolio Project 1 Internal Link Reference 1](https://github.com/Coder731/Portfolio_Project_1#shorter-name-asterisk-padding-bullet-list-indent-nav-bug-bullet-nav-bug-2-)
+- [Portfolio Project 1 Internal Link Reference 2](https://github.com/Coder731/Portfolio_Project_1#fixed_bugs)
+- [Portfolio Project 1 Internal Link Reference 3](https://github.com/Coder731/Portfolio_Project_1#fixed-bugs-)
+- [Portfolio Project 1 Internal Link Reference 4](https://github.com/Coder731/Portfolio_Project_1#bullet_nav_bug_2)
+- Question [How to link to part of the same document in Markdown?](https://stackoverflow.com/questions/2822089/how-to-link-to-part-of-the-same-document-in-markdown)
+- Answer [How to link to part of the same document in Markdown?](https://stackoverflow.com/a/6494918)
+
 ### Git
 
 - [History or log of commands executed in Git](https://stackoverflow.com/questions/7435452/history-or-log-of-commands-executed-in-git)
