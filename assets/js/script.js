@@ -37,15 +37,12 @@ let str = "Visit W3Schools!";
 document.getElementById("output").innerHTML = str.search("W3Schools");
 // Reference Comment:    // Simple Search in JavaScript [JavaScript Series]    // https://www.youtube.com/watch?v=SWkPXbQXArk&t=1s
 const searchInput = document.getElementById('search');
-searchInput.addEventListener('input', (event) => {
-    console.log(event);
-});
+searchInput.addEventListener( 'input', (event) => {    console.log(event);    } );
 const userInput = document.getElementById('userinput');
 userInput.addEventListener("change", goWiki) 
 function goWiki() {
-        console.log(userInput);
-        console.log("TESTING");
-}
+                    console.log(userInput);
+                    console.log("TESTING");    }
 // Reference Comment:    // Coding Challenge #75: Wikipedia API  // https://www.youtube.com/watch?v=RPz75gcHj18    //Reference Comment: //The vanilla JS way to listen for click events // https://gomakethings.com/listening-for-click-events-with-vanilla-javascript/#the-vanilla-js-way-to-listen-for-click-events
 document.addEventListener('click', function (event) {
 	// If the clicked element doesn't have the right selector, bail
