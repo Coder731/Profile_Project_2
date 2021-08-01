@@ -4,16 +4,16 @@
 ## [Overview](#overview-link) <a id="overview-link-contents"></a>
 ## [Development](#development-link) <a id="development-link-contents"></a>
 ## [Features](#features-link) <a id="features-link-contents"></a>
-## Testing
-## Wireframe
-## References
-### Search
-#### DOM Event Listener
-### Logging Time Stamp to Console
-#### JS Elements and Syntax
-##### JS Objects
-##### Destructure
-### Git
+## [Testing](#testing-link)
+## [Wireframe](#wireframe-link)
+## [References](#references-link)
+### [Search](#search-link)
+#### [DOM Event Listener](#dom-event-listener-link)
+### [Logging Time Stamp to Console](#logging-time-stamp-to-console-link)
+#### [JS Elements and Syntax](#js-elements-and-syntax-link)
+##### [JS Objects](#js-objects-link)
+##### [Destructure](#destructure-link)
+### [Git](#git-link)
 
 
 ## [Overview](#overview-link-contents) <a id="overview-link"></a> 
@@ -41,40 +41,40 @@ Plan: To attempt to make a project with:
 
 - Two Search bars
 
-## Testing
+## [Testing](#testing-link-contents) <a id="testing-link"></a>
 
 - [TESTING.md](TESTING.md)
 
-## Wireframe
+## [Wireframe](#wireframe-link-contents) <a id="wireframe-link"></a>
 
 -![wireframe homepage](assets/images/homepage_wireframe.png)
 
-## References
+## [References](#references-link-contents) <a id="references-link"></a>
 
-### Search
+### [Search](#search-link-contents) <a id="search-link"></a>
 
 - [Wikipedia MediaWiki JavaScript API](https://www.mediawiki.org/wiki/API:Search#JavaScript)
 
 - [Search Bar](https://www.w3schools.com/howto/howto_css_searchbar.asp)
 
-#### DOM Event Listener
+#### [DOM Event Listener](dom-event-listener-link-contents) <a id="dom-event-listener-link"></a>
 
 - [HTML DOM addEventListener Method](https://www.w3schools.com/jsref/met_element_addeventlistener.asp)
 
 - [The vanilla JS way to listen for click events](https://gomakethings.com/listening-for-click-events-with-vanilla-javascript/#the-vanilla-js-way-to-listen-for-click-events)
 
-#### JS Elements and Syntax
+#### [JS Elements and Syntax](js-element-and-syntax-link-contents) <a id="js-element-and-syntax-link"></a>
 
-##### JS Objects
+##### [JS Objects](js-objects-link-contents) <a id="js-objects-link"></a>
 
-##### Destructure
+##### [Destructure](destructure-link-contents) <a id="destructure-link"></a>
 
 - Object destructure [Javascript object destructure with property name in variable](https://stackoverflow.com/questions/64895489/javascript-object-destructure-with-property-name-in-variable)
 - Mozilla Destructuring assignment syntax JavaScript to allow object unpacking. [Destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
 
-### README
+### [README](readme-link-contents) <a id="readme-link"></a>
 
-#### Internal README links
+#### [Internal README links](internal-readme-links-link-contents) <a id="internal-readme-links-link"></a>
 
 - [Portfolio Project 1 Internal Link Reference 1](https://github.com/Coder731/Portfolio_Project_1#shorter-name-asterisk-padding-bullet-list-indent-nav-bug-bullet-nav-bug-2-)
 - [Portfolio Project 1 Internal Link Reference 2](https://github.com/Coder731/Portfolio_Project_1#fixed_bugs)
@@ -83,7 +83,7 @@ Plan: To attempt to make a project with:
 - Question [How to link to part of the same document in Markdown?](https://stackoverflow.com/questions/2822089/how-to-link-to-part-of-the-same-document-in-markdown)
 - Answer [How to link to part of the same document in Markdown?](https://stackoverflow.com/a/6494918)
 
-### Git
+### [Git](git-link-contents) <a id="git-link"></a>
 
 - [History or log of commands executed in Git](https://stackoverflow.com/questions/7435452/history-or-log-of-commands-executed-in-git)
 
