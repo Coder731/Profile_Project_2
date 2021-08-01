@@ -73,3 +73,5 @@ Plan: To attempt to make a project with:
 ### Git
 
 - [History or log of commands executed in Git](https://stackoverflow.com/questions/7435452/history-or-log-of-commands-executed-in-git)
+
+- Rules 2 and 6 of 7: Limit the subject line to 50 characters; Wrap the body at 72 characters [How to Write a Git Commit Message](gitpod /workspace/Profile_Project_2 $ git commit -m "Update Enter press in bar 2 console log statement")
