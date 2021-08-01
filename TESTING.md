@@ -17,7 +17,10 @@
 - Removing duplicate string log to console for click event.
 
 ## Logging html code to Console
-- added log of html element to console
+- Added log of html element to console
+    - Found that logging the result of the "get element by id" method causes the 
+      HTML code for the corresponding element to appear in the console.
+        - Before this, when trying to combine the above code with a string, an "Empty HTML Object" had been logged to the console with the string.
 
 ## References
 
