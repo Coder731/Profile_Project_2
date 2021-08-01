@@ -37,7 +37,7 @@ Plan: To attempt to make a project with:
 
 ## [Development](#development-link-contents) <a id="development-link"></a>
 
-## [Features](#features-link-contents) <a id="features-link"></a>>
+## [Features](#features-link-contents) <a id="features-link"></a>
 
 - Two Search bars
 
