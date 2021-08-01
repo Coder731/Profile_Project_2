@@ -7,6 +7,13 @@
 ## Testing
 ## Wireframe
 ## References
+### Search
+#### DOM Event Listener
+### Logging Time Stamp to Console
+#### JS Elements and Syntax
+##### JS Objects
+##### Destructure
+### Git
 
 ## Overview
 Plan: To attempt to make a project with:
