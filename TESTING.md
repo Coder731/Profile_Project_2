@@ -1,13 +1,19 @@
 # Profile_Project_2 / Testing
 
 # Contents
+## Logging to Console
 ## Logging Time / Date to Console
+## Logging Html code to Console
 ## References
+### Logging Time Stamp to Console
 #### getTime Method
 #### Formatting Time Stamp
+### Logging method to console
 
 
-## Logging Time / Date to Console
+## Logging to Console
+
+### Logging Time / Date to Console
 
 - Added capability to log date / time stamp(s) to the developer console.
 
@@ -16,7 +22,7 @@
 
 - Removing duplicate string log to console for click event.
 
-## Logging html code to Console
+### Logging html code to Console
 - Added log of html element to console
     - Found that logging the result of the "get element by id" method causes the 
       HTML code for the corresponding element to appear in the console.
