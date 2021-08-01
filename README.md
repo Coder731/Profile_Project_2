@@ -1,7 +1,7 @@
 # Profile_Project_2
 
 # Contents
-## [Overview](#overview)
+## [Overview](#overview_link)
 ## Development
 ## Features
 ## Testing
@@ -16,7 +16,7 @@
 ### Git
 
 
-## Overview <a id="overview"></a>
+## Overview <a id="overview_link"></a>
 Plan: To attempt to make a project with:
     - three sections in main:
         -section one
