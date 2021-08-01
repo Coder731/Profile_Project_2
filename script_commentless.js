@@ -1,5 +1,4 @@
-function myFunction() {
-    var d = new Date();        var n = d.getTime();        document.getElementById("demo").innerHTML = n;    }
+function myFunction() {var d = new Date(); var n = d.getTime(); document.getElementById("demo").innerHTML = n; }
 let e = new Date().getTime()
 var url = "https://en.wikipedia.org/w/api.php"; 
 var params = {    action: "query",    list: "search",    srsearch: "Nelson Mandela",    format: "json"                              };
