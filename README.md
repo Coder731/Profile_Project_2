@@ -2,7 +2,7 @@
 
 # Contents
 ## [Overview](#overview_link)
-## Development
+## [Development](#development-link)
 ## Features
 ## Testing
 ## Wireframe
@@ -34,7 +34,7 @@ Plan: To attempt to make a project with:
             - spreadsheet calculator for doing simple analysis of the company selected.
         - integrate all sections so that once a company is searched, the website updates with all relevant information in all sections at the same time
 
-## Development
+## Development <a id="development_link"></a>
 
 ## Features
 
