@@ -16,3 +16,5 @@
 ## References
 
 - Use inline if statement to format display of minutes and seconds as double digits when logging partial time stamp to the developer console.  [Conditional (ternary) Operator](https://stackoverflow.com/questions/10270351/how-to-write-an-inline-if-statement-in-javascript)
+
+- [getMinutes() 0-9 - How to display two digit numbers?](https://stackoverflow.com/questions/8935414/getminutes-0-9-how-to-display-two-digit-numbers)
