@@ -44,8 +44,7 @@ document.addEventListener('click', function (event) {
     console.log('clicked on search bar 2');
     // log time of click:        // Get current time in Hours24: Minutes: Seconds format in JavaScript        // (edited)  (Reference(11))
         var dt = new Date(); //Date constructor 
-        var mm = dt.getMinutes();
-        var ss = dt.getSeconds();
+        var mm = dt.getMinutes();        var ss = dt.getSeconds();
         console.log("Current min:sec stamp is= " + mm + ":" + ss);  /*log time:*/   }, false);
 /* References:
 1. https://www.w3schools.com/jsref/jsref_gettime.asp
