@@ -60,6 +60,8 @@ Plan: To attempt to make a project with:
 
 - [Get current time in Hours24: Minutes: Seconds format in JavaScript](https://www.includehelp.com/code-snippets/get-current-time-in-hours24-minutes-seconds-format-in-javascript.aspx)
 
+- Object destructure [Javascript object destructure with property name in variable](https://stackoverflow.com/questions/64895489/javascript-object-destructure-with-property-name-in-variable)
+
 ### Git
 
 - [History or log of commands executed in Git](https://stackoverflow.com/questions/7435452/history-or-log-of-commands-executed-in-git)
