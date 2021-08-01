@@ -16,6 +16,9 @@
 
 - Removing duplicate string log to console for click event.
 
+## Logging html code to Console
+- added log of html element to console
+
 ## References
 
 - Use inline if statement to format display of minutes and seconds as double digits when logging partial time stamp to the developer console.  [Conditional (ternary) Operator](https://stackoverflow.com/questions/10270351/how-to-write-an-inline-if-statement-in-javascript)
