@@ -63,7 +63,7 @@ Plan: To attempt to make a project with:
 
 - [The vanilla JS way to listen for click events](https://gomakethings.com/listening-for-click-events-with-vanilla-javascript/#the-vanilla-js-way-to-listen-for-click-events)
 
-#### [JS Elements and Syntax](#js-element-and-syntax-link-contents) <a id="js-element-and-syntax-link"></a>
+#### [JS Elements and Syntax](#js-elements-and-syntax-link-contents) <a id="js-elements-and-syntax-link"></a>
 
 ##### [JS Objects](#js-objects-link-contents) <a id="js-objects-link"></a>
 
