@@ -4,16 +4,16 @@
 ## [Overview](#overview-link) <a id="overview-link-contents"></a>
 ## [Development](#development-link) <a id="development-link-contents"></a>
 ## [Features](#features-link) <a id="features-link-contents"></a>
-## [Testing](#testing-link)
-## [Wireframe](#wireframe-link)
-## [References](#references-link)
-### [Search](#search-link)
-#### [DOM Event Listener](#dom-event-listener-link)
-### [Logging Time Stamp to Console](#logging-time-stamp-to-console-link)
-#### [JS Elements and Syntax](#js-elements-and-syntax-link)
-##### [JS Objects](#js-objects-link)
-##### [Destructure](#destructure-link)
-### [Git](#git-link)
+## [Testing](#testing-link) <a id="testing-link-contents"></a>
+## [Wireframe](#wireframe-link) <a id="wireframe-link-contents"></a>
+## [References](#references-link) <a id="references-link-contents"></a>
+### [Search](#search-link) <a id="search-link-contents"></a>
+#### [DOM Event Listener](#dom-event-listener-link) <a id="dom-event-listener-link-contents"></a>
+### [Logging Time Stamp to Console](#logging-time-stamp-to-console-link) <a id="logging-time-stamp-to-console-link-contents"></a>
+#### [JS Elements and Syntax](#js-elements-and-syntax-link) <a id="js-elements-and-syntax-link-contents"></a>
+##### [JS Objects](#js-objects-link) <a id="js-objects-link-contents"></a>
+##### [Destructure](#destructure-link) <a id="destructure-link-contents"></a>
+### [Git](#git-link) <a id="git-link-contents"></a>
 
 
 ## [Overview](#overview-link-contents) <a id="overview-link"></a> 
