@@ -16,9 +16,10 @@ document.getElementById("output").innerHTML = str.search("W3Schools");
 const searchInput = document.getElementById('search');
 searchInput.addEventListener( 'input', (event) => {    console.log(event);    } );
 const userInput = document.getElementById('userinput');
+console.log(userInput);
 userInput.addEventListener("change", goWiki) 
 function goWiki() {
-    console.log(userInput);
+    console.log(userInput);//logs the html code for element with id of userinput
     console.log("Enter pressed (after changed input to bar 2)");    }
 // Coding Challenge #75: Wikipedia API  (Reference(8))           //The vanilla JS way to listen for click events (Reference(9))
 document.addEventListener('click', function (event) {
