@@ -3,13 +3,6 @@
     function myFunction() {
         var d = new Date();        var n = d.getTime();        document.getElementById("demo").innerHTML = n;    }
     let e = new Date().getTime()  // (Reference (3))
-// How to convert seconds to minutes and hours in javascript  (Reference (4))
-    function secondsToHms(d) {
-        d = Number(d);
-        var h = Math.floor(d / 3600);        var m = Math.floor(d % 3600 / 60);        var s = Math.floor(d % 3600 % 60);
-        var hDisplay = h > 0 ? h + (h == 1 ? " hour, ":" hours, "):""; var mDisplay = m > 0 ? m + (m == 1 ? " minute, ":" minutes, "):""; var sDisplay = s > 0 ? s + (s == 1 ? " second":" seconds"):"";
-        return hDisplay + mDisplay + sDisplay;                                                  }
-//  (Reference(5))     /*  search.js    MediaWiki API Demos    Demo of `Search` module: Search for a text or title    MIT License    */
 var url = "https://en.wikipedia.org/w/api.php"; 
 var params = {    action: "query",    list: "search",    srsearch: "Nelson Mandela",    format: "json"                              };
 url = url + "?origin=*";
@@ -42,7 +35,7 @@ document.addEventListener('click', function (event) {
 2. https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_gettime
 3. https://www.w3docs.com/snippets/javascript/how-to-get-a-timestamp-in-javascript.html
 4. https://stackoverflow.com/questions/37096367/how-to-convert-seconds-to-minutes-and-hours-in-javascript
-5. https://www.mediawiki.org/wiki/API:Search#JavaScript
+5. 
 6. https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_search
 7. https://www.youtube.com/watch?v=SWkPXbQXArk&t=1s
 8. https://www.youtube.com/watch?v=RPz75gcHj18
