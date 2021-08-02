@@ -58,7 +58,7 @@ Problem Part 2: Link not working when clicked
         - Before this, when trying to combine the above code with a string, an "Empty HTML     
           Object" had been logged to the console with the string.
 
-### [Progress](#logging-to-console-link-contents) 
+### [Progress](#progress-contents) <a id="progress-contents-link"></a>
 
 #### [Capabilities at this phase](#capabilities-at-this-phase-link-contents) <a id="capabilities-at-this-phase-link"></a>
 
