@@ -2,10 +2,10 @@
 [Jump back to README testing section](README.md/#testing-md-file-origin-link) <a id="testing-md-file-link"></a>
 
 # Contents
-## [Bugs](#bugs-link) <a id="bugs-link"></a>
-### [Resolved](#resolv-contentsed-link) <a id=""></a>
-#### [Linking internally in REA-contentsDME and TESTING files [Resolved]](#linking-internally-in-readme-and-testing-files-resolved-link) <a id="linking-internal-contentsly-in-readme-and-testing-files-resolved-link"></a>
-### [Unresolved](#unresolved-link) <a id="unresolved-link"></a>
+## [Bugs](#bugs-link) <a id="bugs-link-contents"></a>
+### [Resolved](#resolved-link) <a id="resolved-link-contents"></a>
+#### [Linking internally in README and TESTING files [Resolved]](#linking-internally-in-readme-and-testing-files-resolved-link) <a id="linking-internally-in-readme-and-testing-files-resolved-link-contents"></a>
+### [Unresolved](#unresolved-link) <a id="unresolved-link-contents"></a>
 #-contents# [Logging to Console](#logging-to-console-link) <a id="logging-to-console-link-contents"></a>
 ### [Logging Time / Date to Console](#logging-time-date-to-console-link) <a id="logging-time-date-to-console-link-contents"></a>
 ### [Logging Html code to Console](#logging-html-code-to-console-link) <a id="logging-html-code-to-console-link-contents"></a>
