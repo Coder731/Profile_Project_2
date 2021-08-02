@@ -13,6 +13,7 @@
 #### [Logging Time / Date to Console](#logging-time-date-to-console-link) <a id="logging-time-date-to-console-link-contents"></a>
 #### [Logging Html code to Console](#logging-html-code-to-console-link) <a id="logging-html-code-to-console-link-contents"></a>
 ### [Progress](#progress-link) <a id="progress-link-contents"></a>
+#### [Phase](#phase-link) <a id="phase-link-contents"></a>
 #### [Capabilities at this phase](#capabilities-at-this-phase-link) <a id="capabilities-at-this-phase-link-contents"></a>
 ## [References](#references-link) <a id="references-link-contents"></a>
 ### [Logging Time Stamp to Console](#logging-time-stamp-to-console-link) <a id="logging-time-stamp-to-console-link-contents"></a>
@@ -66,6 +67,10 @@ Problem Part 2: Link not working when clicked
           Object" had been logged to the console with the string.
 
 ### [Progress](#progress-link-contents) <a id="progress-link"></a>
+
+#### [Phase](#phase-link-contents) <a id="phase-link"></a>
+
+- add interface with search API and search bar
 
 #### [Capabilities at this phase](#capabilities-at-this-phase-link-contents) <a id="capabilities-at-this-phase-link"></a>
 
