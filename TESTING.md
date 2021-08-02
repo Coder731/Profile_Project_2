@@ -17,7 +17,7 @@
 
 
 # [Main Body](#main-body-link-contents)<a id="main-body-link"></a>
-## [Bugs](#bugs-link-contents)<a id="link"></a>
+## [Bugs](#bugs-link-contents)<a id="bugs-link"></a>
 ### [Resolved](#resolved-link-contents)<a id="link"></a>
 #### [Linking internally in README and TESTING files [Resolved]](#linking-internally-in-readme-and-testing-files-resolved-link-contents)<a id="linking-internally-in-readme-and-testing-files-link"></a>
 
