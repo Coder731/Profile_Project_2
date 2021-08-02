@@ -17,8 +17,7 @@ const searchInput = document.getElementById('search');
 searchInput.addEventListener( 'input', (event) => {    console.log(event);    } );
 const userInput = document.getElementById('userinput');
 userInput.addEventListener("change", goWiki) 
-function goWiki() {
-    console.log("Enter pressed (after changed input to bar 2)");    }
+function goWiki() {    console.log("Enter pressed (after changed input to bar 2)");    }
 // Coding Challenge #75: Wikipedia API  (Reference(8))           //The vanilla JS way to listen for click events (Reference(9))
 document.addEventListener('click', function (event) {
 	if (!event.target.matches('.click-me')) return;  // If the clicked element doesn't have the right selector, bail
