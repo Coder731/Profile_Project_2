@@ -6,7 +6,7 @@
 ### [Resolved](#resolved-link) <a id="resolved-link-contents"></a>
 #### [Linking internally in README and TESTING files [Resolved]](#linking-internally-in-readme-and-testing-files-resolved-link) <a id="linking-internally-in-readme-and-testing-files-resolved-link-contents"></a>
 ### [Unresolved](#unresolved-link) <a id="unresolved-link-contents"></a>
-#-contents# [Logging to Console](#logging-to-console-link) <a id="logging-to-console-link-contents"></a>
+## [Logging to Console](#logging-to-console-link) <a id="logging-to-console-link-contents"></a>
 ### [Logging Time / Date to Console](#logging-time-date-to-console-link) <a id="logging-time-date-to-console-link-contents"></a>
 ### [Logging Html code to Console](#logging-html-code-to-console-link) <a id="logging-html-code-to-console-link-contents"></a>
 ## [References](#references-link) <a id="references-link"></a>
