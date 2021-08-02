@@ -35,7 +35,7 @@ Problem Part 2: Link not working when clicked
 
 ## [Development](#development-link-contents) <a id="development-link"></a>
 
-[jump back to Development Section in README](README.md/development-link)
+[jump back to Development Section in README](README.md/#development-link)
 
 ### [Logging to Console](#logging-to-console-link-contents) <a id="logging-to-console-link"></a>
 
