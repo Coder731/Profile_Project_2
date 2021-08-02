@@ -104,7 +104,8 @@ Problem Part 2: Link not working when clicked
 
 #### Phase
 
-- Feeding search string into api search query
+- Feeding search string into parasmeters for api search query
+- Convert search string and parameters into search query
 - Adding ability to go to page
 
 ## [References](#references-link-contents) <a id="references-link"></a>

@@ -2,11 +2,7 @@
 // JavaScript getTime() Method (Reference (1))    // JavaScript getTime() Method    // Try It Yourself  (Reference (2))
 var url = "https://en.wikipedia.org/w/api.php"; 
 var params = {    action: "query",    list: "search",    srsearch: "Nelson Mandela",    format: "json"    };
-url = url + "?origin=*";
-Object.keys(params).forEach(function(key){url += "&" + key + "=" + params[key];});
-fetch(url)  .then(function(response){return response.json();})
-    .then(function(response) {if (response.query.search[0].title==="Nelson Mandela"){console.log("Your search page 'Nelson Mandela' exists on English Wikipedia");  }  })
-    .catch(function(error){console.log(error);});
+
 // set a html element equal to something:  (Reference(6))
 let str = "Visit  W3Schools!"; 
 document.getElementById("output").innerHTML = str.search("W3Schools");
@@ -17,7 +13,7 @@ document.getElementById("output").innerHTML = str.search("W3Schools");
     let searchString='';
     userInput.addEventListener( 'input', (event) => {    console.log(event); searchString=searchString+event.data;console.log(searchString);    } );
 userInput.addEventListener("change", goWiki) 
-function goWiki() {    console.log("Enter pressed (after changed input to bar 2)");  params.srsearch=searchString; console.log("params.srsearch: "+params.srsearch);  }
+function goWiki() {    console.log("Enter pressed (after changed input to bar 2)");  params.srsearch=searchString; console.log("params.srsearch: "+params.srsearch); return params.srsearch; }
 //The vanilla JS way to listen for click events (Reference(9))
 document.addEventListener('click', function (event) {
 	if (!event.target.matches('.search-bar')) return;  // If the clicked element doesn't have the right selector, bail
@@ -26,6 +22,22 @@ document.addEventListener('click', function (event) {
         var dt = new Date(); //Date constructor 
         var mm = (dt.getMinutes()<10?'0':'') + dt.getMinutes();  var ss = (dt.getSeconds()<10?'0':'') + dt.getSeconds();
         console.log("Clicked on search bar 2 at " + mm + ":" + ss);  /*log click amd time:*/   }, false);
+
+        // wiki api search part 2:
+        url = url + "?origin=*";
+        console.log(url);
+        params.srsearch=searchString;
+        console.log(params.srsearch);
+        Object.keys(params).forEach(function(key){url += "&" + key + "=" + params[key];});
+        fetch(url)  .then(function(response){return response.json();})
+            .then(function(response) {if (response.query.search[0].title==="Nelson Mandela"){console.log("Your search page 'Nelson Mandela' exists on English Wikipedia");  }  })
+            .catch(function(error){console.log(error);});
+            console.log(url);
+            let url2= "https://en.wikipedia.org/?curid=<pageId>"
+            console.log(url2);
+            // https://youtu.be/Dk6Wopar10k?t=4421
+            let searchString2=document.getElementById("userinput").value;
+            console.log("searchString2: "+searchString2);
 /* References:
 1. https://www.w3schools.com/jsref/jsref_gettime.asp
 2. https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_gettime
