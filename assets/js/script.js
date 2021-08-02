@@ -19,7 +19,7 @@ userInput.addEventListener("change", goWiki)
 function goWiki() {    console.log("Enter pressed (after changed input to bar 2)");    }
 //The vanilla JS way to listen for click events (Reference(9))
 document.addEventListener('click', function (event) {
-	if (!event.target.matches('.click-me')) return;  // If the clicked element doesn't have the right selector, bail
+	if (!event.target.matches('.search-bar')) return;  // If the clicked element doesn't have the right selector, bail
 	event.preventDefault();  // Don't follow the link
     // (Reference (10))|log time of click|Get current time in Hours24: Minutes: Seconds format in JavaScript|(Reference(11))|(Reference (12))|Display minutes and seconds as two digits:
         var dt = new Date(); //Date constructor 

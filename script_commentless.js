@@ -14,7 +14,7 @@ document.getElementById("output").innerHTML = str.search("W3Schools");
     userInput.addEventListener("change", goWiki) 
 function goWiki() {    console.log("Enter pressed (after changed input to bar 2)");    }
 document.addEventListener('click', function (event) {
-if (!event.target.matches('.click-me')) return;
+if (!event.target.matches('.search-bar')) return;
 event.preventDefault();
     var dt = new Date(); 
     var mm = (dt.getMinutes()<10?'0':'') + dt.getMinutes();  var ss = (dt.getSeconds()<10?'0':'') + dt.getSeconds();
