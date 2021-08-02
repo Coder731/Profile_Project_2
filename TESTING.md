@@ -49,6 +49,16 @@ Problem Part 2: Link not working when clicked
 
 ### [Unresolved](#unresolved-link-contents) <a id="unresolved-link"></a>
 
+#### Reload bug
+
+- Need to reload page to start search string again if make mistake.
+
+#### Issues Resolved
+
+#### Issues Outstanding
+
+- Update TESTING Unresolved headings, links and Contents.
+
 ## [Development](#development-link-contents) <a id="development-link"></a>
 
 [jump back to Development Section in README](README.md/#development-link)
