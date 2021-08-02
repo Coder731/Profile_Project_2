@@ -20,6 +20,7 @@
 ## Bugs
 ### Resolved
 #### Linking internally in README and TESTING files [Resolved]
+
 - Problem Part 1: How to create internal links from Table of Contents to relevant Headings
 - Solution:
   - Step 1: Use references from Portfolio Project 1 for internal linking
@@ -40,6 +41,7 @@ Problem Part 2: Link not working when clicked
 - Removing duplicate string log to console for click event.
 
 ### Logging html code to Console
+
 - Added log of html element to console
     - Found that logging the result of the "get element by id" method causes the 
       HTML code for the corresponding element to appear in the console.
@@ -59,10 +61,12 @@ Problem Part 2: Link not working when clicked
 - [How to Get a Timestamp in JavaScript](https://www.w3docs.com/snippets/javascript/how-to-get-a-timestamp-in-javascript.html)
 
 #### getTime Method
+
 - [JavaScript getTime() Method](https://www.w3schools.com/jsref/jsref_gettime.asp)
 - [JavaScript getTime() Method Try It Yourself](https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_gettime)
 
 #### Formatting Time Stamp
+
 - [getMinutes() 0-9 - How to display two digit numbers?](https://stackoverflow.com/questions/8935414/getminutes-0-9-how-to-display-two-digit-numbers)
 - [Get current time in Hours24: Minutes: Seconds format in JavaScript](https://www.includehelp.com/code-snippets/get-current-time-in-hours24-minutes-seconds-format-in-javascript.aspx)
 
