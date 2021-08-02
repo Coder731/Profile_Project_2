@@ -11,6 +11,8 @@
 ### [Logging to Console](#logging-to-console-link) <a id="logging-to-console-link-contents"></a>
 #### [Logging Time / Date to Console](#logging-time-date-to-console-link) <a id="logging-time-date-to-console-link-contents"></a>
 #### [Logging Html code to Console](#logging-html-code-to-console-link) <a id="logging-html-code-to-console-link-contents"></a>
+### [Progress](#progress-link) <a id="progress-link-contents"></a>
+#### [Capabilities at this phase](#capabilities-at-this-phase-link) <a id="capabilities-at-this-phase-link-contents"></a>
 ## [References](#references-link) <a id="references-link-contents"></a>
 ### [Logging Time Stamp to Console](#logging-time-stamp-to-console-link) <a id="logging-time-stamp-to-console-link-contents"></a>
 #### [getTime Method](#get-time-method-link) <a id="get-time-method-link-contents"></a>
@@ -56,7 +58,18 @@ Problem Part 2: Link not working when clicked
         - Before this, when trying to combine the above code with a string, an "Empty HTML     
           Object" had been logged to the console with the string.
 
-## 
+### [Progress](#logging-to-console-link-contents) 
+
+#### [Capabilities at this phase](#capabilities-at-this-phase-link-contents) <a id="capabilities-at-this-phase-link"></a>
+
+- Utilising:
+  - Can log the following to console:
+    - key-strokes
+    - clicks
+    - enter key press (after updating bar content)
+- Unused:
+  - Can log the following to console:
+    - verbatim html code for input element
 
 ## [References](#references-link-contents) <a id="references-link"></a>
 
