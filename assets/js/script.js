@@ -17,7 +17,7 @@ document.getElementById("output").innerHTML = str.search("W3Schools");
     let searchString='';
     userInput.addEventListener( 'input', (event) => {    console.log(event); searchString=searchString+event.data;console.log(searchString);    } );
 userInput.addEventListener("change", goWiki) 
-function goWiki() {    console.log("Enter pressed (after changed input to bar 2)");    }
+function goWiki() {    console.log("Enter pressed (after changed input to bar 2)");  params.srsearch=searchString; console.log("params.srsearch: "+params.srsearch);  }
 //The vanilla JS way to listen for click events (Reference(9))
 document.addEventListener('click', function (event) {
 	if (!event.target.matches('.search-bar')) return;  // If the clicked element doesn't have the right selector, bail
