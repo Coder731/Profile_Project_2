@@ -106,6 +106,7 @@ document.addEventListener('click', function (event) {
 
             stocksWS.send({ action: "subscribe", params: "T.MSFT" });
 
+            // https://polygon.io/docs/get_v2_ticks_stocks_nbbo__ticker___date__anchor
             // Step 3 of 4:
             let polyObject = {
                 "db_latency": 43,
