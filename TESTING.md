@@ -36,6 +36,10 @@ Problem Part 2: Link not working when clicked
 
 #### [minor debugging Adding Link to jump between Documents and Sections](#minor-debugging-adding-link-to-jump-between-documents-and-sections-link-contents) <a id="minor-debugging-adding-link-to-jump-between-documents-and-sections-link"></a>
 
+- For adding a link to jump between sections and documents, it was necessary to parse out which parts of the code used in the TESTING and README headings were the target (the anchor element) and which were targeting (the round bracket tag with hash prepended after square brackets)
+- Also, it was necessary to consistently apply one style of link for linking from Contents to Main Body (by appending "-link-contents" to selector) and to apply a different style of link for linking from Main Body back to Contents (by appending "-link" to selector).
+- Where this was not followed there the links did not function until it was corrected.
+
 ### [Unresolved](#unresolved-link-contents) <a id="unresolved-link"></a>
 
 ## [Development](#development-link-contents) <a id="development-link"></a>
