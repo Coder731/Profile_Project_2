@@ -459,3 +459,79 @@ body {
 
 /* search bar: */
 
+/* https://www.mikedane.com/web-development/css/styling-search-bar/ */
+/* .wrapper { */
+    /* position: right; */
+    /* display: flex; */
+    /* min-width: 100px; */
+    /* https://stackoverflow.com/questions/4767971/how-do-i-center-floated-elements */
+        /* float: left;
+        position: relative; */
+    /* left: 40%; */
+/* } */
+
+/* .search-bar {
+    position: relative;
+    float: center;
+    width: 90%;
+} */
+
+/* .search-bar2 {
+    position: relative;
+    float: center;
+    width: 300%;
+} */
+
+    /* https://stackoverflow.com/questions/4767971/how-do-i-center-floated-elements */
+/* .centering-container {
+    float: left;
+    position: relative;
+    left: 40%;
+} */
+
+li.bulletless {
+    /* https://www.w3docs.com/snippets/css/how-to-remove-replace-or-style-list-bullets-with-css.html */
+    list-style-type: none;
+}
+
+/* https://www.w3schools.com/csS/css3_flexbox.asp */
+/* https://www.w3schools.com/csS/tryit.asp?filename=trycss3_flexbox_flex-wrap_nowrap8 */
+/* .flex-class{
+    width: 100px;
+    margin: 10px;
+    text-align: right;
+    margin-left: 40%;
+    margin-right: 40%;
+    } */
+
+/* https://www.w3schools.com/css/css_grid.asp */
+/* https://www.w3schools.com/css/tryit.asp?filename=trycss_grid */
+    .grid-container {
+        display: grid;
+        /* 3 of 4 order of top (left & right) bottom https://www.w3schools.com/CSSref/pr_padding.asp */
+        grid-template-columns: auto auto auto;
+        /* background-color: #2196F3; */
+        padding: 10px;
+      }
+      .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        /* border: 1px solid rgba(0, 0, 0, 0.8); */
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+        vertical-align: top;
+      }
+
+      ul.search-bar.flex-class {
+          padding: 0;
+      }
+
+      /* div.central-grid-item {
+          vertical-align: top;
+          height: 20px;
+
+      } */
+
+      #userinput {
+          width: 100%;
+      }
