@@ -18,7 +18,7 @@ searchInput.addEventListener( 'input', (event) => {    console.log(event);    } 
 const userInput = document.getElementById('userinput');
 userInput.addEventListener("change", goWiki) 
 function goWiki() {    console.log("Enter pressed (after changed input to bar 2)");    }
-// Coding Challenge #75: Wikipedia API  (Reference(8))           //The vanilla JS way to listen for click events (Reference(9))
+//The vanilla JS way to listen for click events (Reference(9))
 document.addEventListener('click', function (event) {
 	if (!event.target.matches('.click-me')) return;  // If the clicked element doesn't have the right selector, bail
 	event.preventDefault();  // Don't follow the link
@@ -34,7 +34,7 @@ document.addEventListener('click', function (event) {
 5. 
 6. https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_search
 7. https://www.youtube.com/watch?v=SWkPXbQXArk&t=1s
-8. https://www.youtube.com/watch?v=RPz75gcHj18
+8. 
 9. https://gomakethings.com/listening-for-click-events-with-vanilla-javascript/#the-vanilla-js-way-to-listen-for-click-events
 10. https://www.w3docs.com/snippets/javascript/how-to-get-a-timestamp-in-javascript.html
 11. https://www.includehelp.com/code-snippets/get-current-time-in-hours24-minutes-seconds-format-in-javascript.aspx
