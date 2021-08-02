@@ -1,7 +1,8 @@
 # Profile_Project_2 / Testing
 [Jump back to README testing section](README.md/#testing-md-file-origin-link) <a id="testing-md-file-link"></a>
 
-# Contents
+# Contents <a id="contents-link-contents"></a>
+[jump to main body](#main-body-link)
 ## [Bugs](#bugs-link) <a id="bugs-link-contents"></a>
 ### [Resolved](#resolved-link) <a id="resolved-link-contents"></a>
 #### [Linking internally in README and TESTING files [Resolved]](#linking-internally-in-readme-and-testing-files-resolved-link) <a id="linking-internally-in-readme-and-testing-files-resolved-link-contents"></a>
@@ -16,7 +17,8 @@
 ### [Logging method to console](#logging-method-to-console-link) <a id="logging-method-to-console-link-contents"></a>
 
 
-# [Main Body](#main-body-link-contents)<a id="main-body-link"></a>
+# Main Body <a id="main-body-link"></a>
+[jump to contents](#contents-link-contents)
 ## [Bugs](#bugs-link-contents)<a id="bugs-link"></a>
 ### [Resolved](#resolved-link-contents)<a id="resolved-link"></a>
 #### [Linking internally in README and TESTING files [Resolved]](#linking-internally-in-readme-and-testing-files-resolved-link-contents)<a id="linking-internally-in-readme-and-testing-files-resolved-link"></a>
