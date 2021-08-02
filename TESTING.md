@@ -53,9 +53,11 @@ Problem Part 2: Link not working when clicked
 
 - Need to reload page to start search string again if make mistake.
 
-#### Issues Resolved
+## Issues
 
-#### Issues Outstanding
+### Issues Resolved
+
+### Issues Outstanding
 
 - Update TESTING Unresolved headings, links and Contents.
 
