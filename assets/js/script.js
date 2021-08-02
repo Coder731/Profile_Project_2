@@ -1,7 +1,7 @@
 // See References at end of code for website addresses (to save space in code ) e.g. "// (Reference (1))", in code commments, refers to 1st Reference, given in last comment of this file, at end of code.
 // JavaScript getTime() Method (Reference (1))    // JavaScript getTime() Method    // Try It Yourself  (Reference (2))
 var url = "https://en.wikipedia.org/w/api.php"; 
-var params = {    action: "query",    list: "search",    srsearch: "Nelson Mandela",    format: "json"    };
+
 
 // set a html element equal to something:  (Reference(6))
 let str = "Visit  W3Schools!"; 
@@ -23,7 +23,21 @@ document.addEventListener('click', function (event) {
         var mm = (dt.getMinutes()<10?'0':'') + dt.getMinutes();  var ss = (dt.getSeconds()<10?'0':'') + dt.getSeconds();
         console.log("Clicked on search bar 2 at " + mm + ":" + ss);  /*log click amd time:*/   }, false);
 
+        // https://stackoverflow.com/questions/21338476/addeventlistener-on-form-submit
+        document.getElementById('userinput').addEventListener('submit', function(event){
+            event.preventDefault();
+            let newSearchSubmitted=""; newSearchSubmitted = document.getElementById('userinput').value;
+            console.log(newSearchSubmitted);
+            alert(newSearchSubmitted);
+        })
+
+        let throughputVariable = document.getElementById("userinput").value;
+        console.log(throughputVariable);
+        
         // wiki api search part 2:
+
+        var params = {    action: "query",    list: "search",    srsearch: throughputVariable,    format: "json"    };
+
         url = url + "?origin=*";
         console.log(url);
         params.srsearch=searchString;
@@ -38,6 +52,154 @@ document.addEventListener('click', function (event) {
             // https://youtu.be/Dk6Wopar10k?t=4421
             let searchString2=document.getElementById("userinput").value;
             console.log("searchString2: "+searchString2);
+
+            let polygonVariable="https://api.polygon.io/v2/aggs/ticker/AAPL/range/1/day/2020-06-01/2020-06-17?apiKey=7NrgP4WkAHfhk8wvUn3Nrpn7MxaxDl5m"
+
+            // https://github.com/polygon-io/client-js
+
+            // usage
+            // Authentication
+            // call the desired client with your api key to initialize it
+
+            import { polygonClient, restClient, websocketClient } from "@polygon.io/client-js";
+            const rest = restClient("7NrgP4WkAHfhk8wvUn3Nrpn7MxaxDl5m");
+
+            // you can use the api now
+
+            rest.forex
+            .previousClose()
+            .then(/* your success handler */)
+            .catch(/* your error handler*/);
+
+            // REST API
+            // import all the rest submodule
+
+            import { restClient } from "@polygon.io/client-js";
+
+            const rest = restClient("7NrgP4WkAHfhk8wvUn3Nrpn7MxaxDl5m");
+
+            rest.forex.previousClose().then(/* your success handler */);
+
+            // import a specific submodule
+
+            import { referenceClient } from "@polygon.io/client-js";
+
+            const reference = referenceClient("7NrgP4WkAHfhk8wvUn3Nrpn7MxaxDl5m");
+
+            reference.tickers.then(/* your success handler */);
+
+            // Websocket
+            // You can get preauthenticated websocket clients for the 3 topics.
+
+            import { websocketClient } from "@polygon.io/client-js";
+
+            const stocksWS = websocketClient("7NrgP4WkAHfhk8wvUn3Nrpn7MxaxDl5m").getStocksWebsocket();
+
+            stocksWs.onmessage = raw => {
+            const message = JSON.parse(raw);
+            switch (message.ev) {
+                case "T":
+                // your trade message handler
+                break;
+            }
+            });
+
+            stocksWS.send({ action: "subscribe", params: "T.MSFT" });
+
+            // Step 3 of 4:
+            let polyObject = {
+                "db_latency": 43,
+                "map": {
+                 "P": {
+                  "name": "ask_price",
+                  "type": "float64"
+                 },
+                 "S": {
+                  "name": "ask_size",
+                  "type": "int"
+                 },
+                 "X": {
+                  "name": "ask_exchange",
+                  "type": "int"
+                 },
+                 "c": {
+                  "name": "conditions",
+                  "type": "int"
+                 },
+                 "f": {
+                  "name": "trf_timestamp",
+                  "type": "int64"
+                 },
+                 "i": {
+                  "name": "indicators",
+                  "type": "int"
+                 },
+                 "p": {
+                  "name": "bid_price",
+                  "type": "float64"
+                 },
+                 "q": {
+                  "name": "sequence_number",
+                  "type": "int"
+                 },
+                 "s": {
+                  "name": "bid_size",
+                  "type": "int"
+                 },
+                 "t": {
+                  "name": "sip_timestamp",
+                  "type": "int64"
+                 },
+                 "x": {
+                  "name": "bid_exchange",
+                  "type": "int"
+                 },
+                 "y": {
+                  "name": "participant_timestamp",
+                  "type": "int64"
+                 },
+                 "z": {
+                  "name": "tape",
+                  "type": "int"
+                 }
+                },
+                "results": [
+                 {
+                  "P": 0,
+                  "S": 0,
+                  "X": 0,
+                  "c": [
+                   1
+                  ],
+                  "p": 102.7,
+                  "q": 2060,
+                  "s": 60,
+                  "t": 1517562000065700400,
+                  "x": 11,
+                  "y": 1517562000065321200,
+                  "z": 3
+                 },
+                 {
+                  "P": 0,
+                  "S": 0,
+                  "X": 0,
+                  "c": [
+                   1
+                  ],
+                  "p": 170,
+                  "q": 2061,
+                  "s": 2,
+                  "t": 1517562000065791500,
+                  "x": 11,
+                  "y": 1517562000065408300,
+                  "z": 3
+                 }
+                ],
+                "results_count": 2,
+                "success": true,
+                "ticker": "AAPL"
+               }
+
 /* References:
 1. https://www.w3schools.com/jsref/jsref_gettime.asp
 2. https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_gettime
