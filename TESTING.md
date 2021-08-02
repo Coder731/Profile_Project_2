@@ -18,7 +18,7 @@
 
 # [Main Body](#main-body-link-contents)<a id="main-body-link"></a>
 ## [Bugs](#bugs-link-contents)<a id="bugs-link"></a>
-### [Resolved](#resolved-link-contents)<a id="link"></a>
+### [Resolved](#resolved-link-contents)<a id="resolved-link"></a>
 #### [Linking internally in README and TESTING files [Resolved]](#linking-internally-in-readme-and-testing-files-resolved-link-contents)<a id="linking-internally-in-readme-and-testing-files-link"></a>
 
 - Problem Part 1: How to create internal links from Table of Contents to relevant Headings
