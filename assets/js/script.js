@@ -12,9 +12,9 @@ let str = "Visit  W3Schools!";
 document.getElementById("output").innerHTML = str.search("W3Schools");
 
 // Simple Search in JavaScript [JavaScript Series]  (Reference(7))
-const searchInput = document.getElementById('search');
-searchInput.addEventListener( 'input', (event) => {    console.log(event);    } );
-const userInput = document.getElementById('userinput');
+    // const searchInput = document.getElementById('search');
+    const userInput = document.getElementById('userinput');
+    userInput.addEventListener( 'input', (event) => {    console.log(event);    } );
 userInput.addEventListener("change", goWiki) 
 function goWiki() {    console.log("Enter pressed (after changed input to bar 2)");    }
 //The vanilla JS way to listen for click events (Reference(9))

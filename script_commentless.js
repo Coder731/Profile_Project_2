@@ -8,9 +8,9 @@ fetch(url)  .then(function(response){return response.json();})
 let str = "Visit  W3Schools!"; 
 document.getElementById("output").innerHTML = str.search("W3Schools");
 
-    const searchInput = document.getElementById('search');
-searchInput.addEventListener( 'input', (event) => {    console.log(event);    } );
+    // const searchInput = document.getElementById('search');
     const userInput = document.getElementById('userinput');
+    userInput.addEventListener( 'input', (event) => {    console.log(event);    } );
     userInput.addEventListener("change", goWiki) 
 function goWiki() {    console.log("Enter pressed (after changed input to bar 2)");    }
 document.addEventListener('click', function (event) {
