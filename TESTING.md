@@ -79,6 +79,7 @@ Problem Part 2: Link not working when clicked
     - key-strokes
     - clicks
     - enter key press (after updating bar content)
+    - formatted time in minutes and seconds
 - Unused:
   - Can log the following to console:
     - verbatim html code for input element
