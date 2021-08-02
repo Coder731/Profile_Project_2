@@ -1,25 +1,25 @@
 # Profile_Project_2 / Testing
 [Jump back to README testing section](README.md/#testing-md-file-origin-link) <a id="testing-md-file-link"></a>
 
-# Contents
-## Bugs
-### Resolved
-#### Linking internally in README and TESTING files [Resolved]
-### Unresolved
-## Logging to Console
-### Logging Time / Date to Console
-### Logging Html code to Console
-## References
-### Logging Time Stamp to Console
-#### getTime Method
-#### Formatting Time Stamp
-### Logging method to console
+# [Contents](#contents-link) <a id=""></a>
+## [Bugs](#bugs-link) <a id=""></a>
+### [Resolved](#resolved-link) <a id=""></a>
+#### [Linking internally in README and TESTING files [Resolved]](#linking-internally-in-readme-and-testing-files-resolved-link) <a id=""></a>
+### [Unresolved](#unresolved-link) <a id=""></a>
+## [Logging to Console](#logging-to-console-link) <a id=""></a>
+### [Logging Time / Date to Console](#logging-time-date-to-console-link) <a id=""></a>
+### [Logging Html code to Console](#logging-html-code-to-console-link) <a id=""></a>
+## [References](#references-link) <a id=""></a>
+### [Logging Time Stamp to Console](#logging-time-stamp-to-console-link) <a id=""></a>
+#### [getTime Method](#get-time-method-link) <a id=""></a>
+#### [Formatting Time Stamp](#formatting-time-stamp-link) <a id=""></a>
+### [Logging method to console](#logging-method-to-console-link) <a id=""></a>
 
 
-# Main Body
-## Bugs
-### Resolved
-#### Linking internally in README and TESTING files [Resolved]
+# [Main Body](#main-body-link-contents)<a id="main-body-link"></a>
+## [Bugs](#bugs-link-contents)<a id="link"></a>
+### [Resolved](#resolved-link-contents)<a id="link"></a>
+#### [Linking internally in README and TESTING files [Resolved]](#linking-internally-in-readme-and-testing-files-resolved-link-contents)<a id="linking-internally-in-readme-and-testing-files-link"></a>
 
 - Problem Part 1: How to create internal links from Table of Contents to relevant Headings
 - Solution:
@@ -27,11 +27,11 @@
 Problem Part 2: Link not working when clicked
 - Resolution: Change id selector, so that unique from actual heading text, not only in terms of case sensitivity but also with regard to spelling.
 
-### Unresolved
+### [Unresolved](#unresolved-link-contents) <a id="unresolved-link"></a>
 
-## Logging to Console
+## [Logging to Console](#logging-to-console-link-contents) <a id="logging-to-console-link"></a>
 
-### Logging Time / Date to Console
+### [Logging Time / Date to Console](#logging-time-date-to-console-link-contents) <a id="logging-time-date-to-console-link"></a>
 
 - Added capability to log date / time stamp(s) to the developer console.
 
@@ -40,7 +40,7 @@ Problem Part 2: Link not working when clicked
 
 - Removing duplicate string log to console for click event.
 
-### Logging html code to Console
+### [Logging html code to Console](#logging-html-code-to-console-link-contents) <a id="logging-html-code-to-console-link"></a>
 
 - Added log of html element to console
     - Found that logging the result of the "get element by id" method causes the 
@@ -48,29 +48,29 @@ Problem Part 2: Link not working when clicked
         - Before this, when trying to combine the above code with a string, an "Empty HTML     
           Object" had been logged to the console with the string.
 
-## References
+## [References](#references-link-contents) <a id="references-link"></a>
 
 - Use inline if statement to format display of minutes and seconds as double digits when logging partial time stamp to the developer console.  [Conditional (ternary) Operator](https://stackoverflow.com/questions/10270351/how-to-write-an-inline-if-statement-in-javascript)
 
 - [Object Declaration Syntax and Naming](https://stackoverflow.com/questions/14339555/javascript-declare-variable-inside-object-declaration)
 
-### Logging Time Stamp to Console
+### [Logging Time Stamp to Console](#logging-time-stamp-to-console-link-contents) <a id="logging-time-stamp-to-console-link"></a>
 
 - [How to convert seconds to minutes and hours in javascript](https://stackoverflow.com/questions/37096367/how-to-convert-seconds-to-minutes-and-hours-in-javascript)
 
 - [How to Get a Timestamp in JavaScript](https://www.w3docs.com/snippets/javascript/how-to-get-a-timestamp-in-javascript.html)
 
-#### getTime Method
+#### [getTime Method](#get-time-method-link-contents) <a id="get-time-method-link"></a>
 
 - [JavaScript getTime() Method](https://www.w3schools.com/jsref/jsref_gettime.asp)
 - [JavaScript getTime() Method Try It Yourself](https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_gettime)
 
-#### Formatting Time Stamp
+#### [Formatting Time Stamp](#formatting-time-stamp-link-contents) <a id="formatting-time-stamp-link"></a>
 
 - [getMinutes() 0-9 - How to display two digit numbers?](https://stackoverflow.com/questions/8935414/getminutes-0-9-how-to-display-two-digit-numbers)
 - [Get current time in Hours24: Minutes: Seconds format in JavaScript](https://www.includehelp.com/code-snippets/get-current-time-in-hours24-minutes-seconds-format-in-javascript.aspx)
 
-### Logging method to console
+### [Logging method to console](#logging-method-to-console-link-contents) <a id="logging-method-to-console-link"></a>
 
 - [Document get Element By Id](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
 - [Check if a get Element By Id is empty](https://stackoverflow.com/questions/43441082/check-if-a-getelementbyid-is-empty)
