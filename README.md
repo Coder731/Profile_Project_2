@@ -80,6 +80,10 @@ Plan: To attempt to make a project with:
 
 ### [README](#readme-link-contents) <a id="readme-link"></a>
 
+#### [Template](#template-link-contents) <a id="template-link"></a>
+
+- [readme-template Testing](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md#testing)
+
 #### [Internal README links](#internal-readme-links-link-contents) <a id="internal-readme-links-link"></a>
 
 - [Portfolio Project 1 Internal Link Reference 1](https://github.com/Coder731/Portfolio_Project_1#shorter-name-asterisk-padding-bullet-list-indent-nav-bug-bullet-nav-bug-2-)
