@@ -6,7 +6,7 @@
 ## [Bugs](#bugs-link) <a id="bugs-link-contents"></a>
 ### [Resolved](#resolved-link) <a id="resolved-link-contents"></a>
 #### [Linking internally in README and TESTING files [Resolved]](#linking-internally-in-readme-and-testing-files-resolved-link) <a id="linking-internally-in-readme-and-testing-files-resolved-link-contents"></a>
-#### [minor debugging Adding Link to jump between Documents and Sections](#minor-debugging-adding-link-to-jump-between-documents-and-sections-link-contents) <a id="minor-debugging-adding-link-to-jump-between-documents-and-sections-link"></a>
+#### [minor debugging Adding Link to jump between Documents and Sections](#minor-debugging-adding-link-to-jump-between-documents-and-sections-link) <a id="minor-debugging-adding-link-to-jump-between-documents-and-sections-link-contents"></a>
 ### [Unresolved](#unresolved-link) <a id="unresolved-link-contents"></a>
 ## [Development](#development-link) <a id="development-link-contents"></a>
 ### [Logging to Console](#logging-to-console-link) <a id="logging-to-console-link-contents"></a>
