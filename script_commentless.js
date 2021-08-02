@@ -7,6 +7,7 @@ fetch(url)  .then(function(response){return response.json();})
     .catch(function(error){console.log(error);});
 let str = "Visit  W3Schools!"; 
 document.getElementById("output").innerHTML = str.search("W3Schools");
+
     const searchInput = document.getElementById('search');
 searchInput.addEventListener( 'input', (event) => {    console.log(event);    } );
     const userInput = document.getElementById('userinput');
