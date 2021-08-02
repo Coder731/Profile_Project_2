@@ -26,7 +26,6 @@
 Problem Part 2: Link not working when clicked
 - Resolution: Change id selector, so that unique from actual heading text, not only in terms of case sensitivity but also with regard to spelling.
 
-
 ### Unresolved
 
 ## Logging to Console
