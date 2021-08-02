@@ -1,7 +1,5 @@
 // See References at end of code for website addresses (to save space in code ) e.g. "// (Reference (1))", in code commments, refers to 1st Reference, given in last comment of this file, at end of code.
 // JavaScript getTime() Method (Reference (1))    // JavaScript getTime() Method    // Try It Yourself  (Reference (2))
-    function myFunction() { var d = new Date(); var n = d.getTime(); document.getElementById("demo").innerHTML = n; }
-    let e = new Date().getTime()  // (Reference (3))
 var url = "https://en.wikipedia.org/w/api.php"; 
 var params = {    action: "query",    list: "search",    srsearch: "Nelson Mandela",    format: "json"    };
 url = url + "?origin=*";
