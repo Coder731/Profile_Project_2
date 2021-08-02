@@ -45,6 +45,10 @@ Plan: To attempt to make a project with:
 
 - [jump to TESTING.md Development](TESTING.md/#development-link) <a id="development-link-contents"></a>
 
+- Phase: add interface with search API and search bar
+
+- Phase: get user input to Html page to display in console
+
 ## [Features](#features-link-contents) <a id="features-link"></a>
 
 - Two Search bars
