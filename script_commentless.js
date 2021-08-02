@@ -21,5 +21,5 @@ document.addEventListener('click', function (event) {
 if (!event.target.matches('.click-me')) return;
 event.preventDefault();
     var dt = new Date(); 
-    var mm = (dt.getMinutes()<10?'0':'') + dt.getMinutes();        var ss = (dt.getSeconds()<10?'0':'') + dt.getSeconds();
+    var mm = (dt.getMinutes()<10?'0':'') + dt.getMinutes();  var ss = (dt.getSeconds()<10?'0':'') + dt.getSeconds();
     console.log("Clicked on search bar 2 at " + mm + ":" + ss);   }, false);
