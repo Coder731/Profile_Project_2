@@ -40,7 +40,7 @@ Problem Part 2: Link not working when clicked
 
 - Removing duplicate string log to console for click event.
 
-### [Logging html code to Console](#logging-html-code-to-console-link-contents) <a id="logging-html-code-to-console-link"></a>
+### [Logging Html code to Console](#logging-html-code-to-console-link-contents) <a id="logging-html-code-to-console-link"></a>
 
 - Added log of html element to console
     - Found that logging the result of the "get element by id" method causes the 
