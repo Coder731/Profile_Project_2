@@ -2,18 +2,18 @@
 [Jump back to README testing section](README.md/#testing-md-file-origin-link) <a id="testing-md-file-link"></a>
 
 # Contents
-## [Bugs](#bugs-link) <a id=""></a>
-### [Resolved](#resolved-link) <a id=""></a>
-#### [Linking internally in README and TESTING files [Resolved]](#linking-internally-in-readme-and-testing-files-resolved-link) <a id=""></a>
-### [Unresolved](#unresolved-link) <a id=""></a>
-## [Logging to Console](#logging-to-console-link) <a id=""></a>
-### [Logging Time / Date to Console](#logging-time-date-to-console-link) <a id=""></a>
-### [Logging Html code to Console](#logging-html-code-to-console-link) <a id=""></a>
-## [References](#references-link) <a id=""></a>
-### [Logging Time Stamp to Console](#logging-time-stamp-to-console-link) <a id=""></a>
-#### [getTime Method](#get-time-method-link) <a id=""></a>
-#### [Formatting Time Stamp](#formatting-time-stamp-link) <a id=""></a>
-### [Logging method to console](#logging-method-to-console-link) <a id=""></a>
+## [Bugs](#bugs-link-contents) <a id="bugs-link"></a>
+### [Resolved](#resolved-link-contents) <a id=""></a>
+#### [Linking internally in README and TESTING files [Resolved]](#linking-internally-in-readme-and-testing-files-resolved-link-contents) <a id="linking-internally-in-readme-and-testing-files-resolved-link"></a>
+### [Unresolved](#unresolved-link-contents) <a id="unresolved-link"></a>
+## [Logging to Console](#logging-to-console-link-contents) <a id="logging-to-console-link"></a>
+### [Logging Time / Date to Console](#logging-time-date-to-console-link-contents) <a id="logging-time-date-to-console-link"></a>
+### [Logging Html code to Console](#logging-html-code-to-console-link-contents) <a id="logging-html-code-to-console-link"></a>
+## [References](#references-link-contents) <a id="references-link"></a>
+### [Logging Time Stamp to Console](#logging-time-stamp-to-console-link-contents) <a id="logging-time-stamp-to-console-link"></a>
+#### [getTime Method](#get-time-method-link-contents) <a id="get-time-method-link"></a>
+#### [Formatting Time Stamp](#formatting-time-stamp-link-contents) <a id="formatting-time-stamp-link"></a>
+### [Logging method to console](#logging-method-to-console-link-contents) <a id="logging-method-to-console-link"></a>
 
 
 # [Main Body](#main-body-link-contents)<a id="main-body-link"></a>
