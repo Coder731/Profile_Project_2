@@ -12,10 +12,8 @@ document.getElementById("output").innerHTML = str.search("W3Schools");
 const searchInput = document.getElementById('search');
 searchInput.addEventListener( 'input', (event) => {    console.log(event);    } );
 const userInput = document.getElementById('userinput');
-console.log(userInput);
 userInput.addEventListener("change", goWiki) 
 function goWiki() {
-    console.log(userInput);
     console.log("Enter pressed (after changed input to bar 2)");    }
 document.addEventListener('click', function (event) {
 if (!event.target.matches('.click-me')) return;
