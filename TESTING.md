@@ -32,9 +32,11 @@ Problem Part 2: Link not working when clicked
 
 ### [Unresolved](#unresolved-link-contents) <a id="unresolved-link"></a>
 
-## [Logging to Console](#logging-to-console-link-contents) <a id="logging-to-console-link"></a>
+## Development
 
-### [Logging Time / Date to Console](#logging-time-date-to-console-link-contents) <a id="logging-time-date-to-console-link"></a>
+### [Logging to Console](#logging-to-console-link-contents) <a id="logging-to-console-link"></a>
+
+#### [Logging Time / Date to Console](#logging-time-date-to-console-link-contents) <a id="logging-time-date-to-console-link"></a>
 
 - Added capability to log date / time stamp(s) to the developer console.
 
@@ -43,13 +45,15 @@ Problem Part 2: Link not working when clicked
 
 - Removing duplicate string log to console for click event.
 
-### [Logging Html code to Console](#logging-html-code-to-console-link-contents) <a id="logging-html-code-to-console-link"></a>
+#### [Logging Html code to Console](#logging-html-code-to-console-link-contents) <a id="logging-html-code-to-console-link"></a>
 
 - Added log of html element to console
     - Found that logging the result of the "get element by id" method causes the 
       HTML code for the corresponding element to appear in the console.
         - Before this, when trying to combine the above code with a string, an "Empty HTML     
           Object" had been logged to the console with the string.
+
+## 
 
 ## [References](#references-link-contents) <a id="references-link"></a>
 
