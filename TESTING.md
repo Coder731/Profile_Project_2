@@ -1,7 +1,7 @@
 # Profile_Project_2 / Testing
 [Jump back to README testing section](README.md/#testing-md-file-origin-link) <a id="testing-md-file-link"></a>
 
-# [Contents](#contents-link) <a id=""></a>
+# Contents
 ## [Bugs](#bugs-link) <a id=""></a>
 ### [Resolved](#resolved-link) <a id=""></a>
 #### [Linking internally in README and TESTING files [Resolved]](#linking-internally-in-readme-and-testing-files-resolved-link) <a id=""></a>
