@@ -7,9 +7,10 @@
 ### [Resolved](#resolved-link) <a id="resolved-link-contents"></a>
 #### [Linking internally in README and TESTING files [Resolved]](#linking-internally-in-readme-and-testing-files-resolved-link) <a id="linking-internally-in-readme-and-testing-files-resolved-link-contents"></a>
 ### [Unresolved](#unresolved-link) <a id="unresolved-link-contents"></a>
-## [Logging to Console](#logging-to-console-link) <a id="logging-to-console-link-contents"></a>
-### [Logging Time / Date to Console](#logging-time-date-to-console-link) <a id="logging-time-date-to-console-link-contents"></a>
-### [Logging Html code to Console](#logging-html-code-to-console-link) <a id="logging-html-code-to-console-link-contents"></a>
+## [Development](#development-link) <a id="development-link-contents"></a>
+### [Logging to Console](#logging-to-console-link) <a id="logging-to-console-link-contents"></a>
+#### [Logging Time / Date to Console](#logging-time-date-to-console-link) <a id="logging-time-date-to-console-link-contents"></a>
+#### [Logging Html code to Console](#logging-html-code-to-console-link) <a id="logging-html-code-to-console-link-contents"></a>
 ## [References](#references-link) <a id="references-link-contents"></a>
 ### [Logging Time Stamp to Console](#logging-time-stamp-to-console-link) <a id="logging-time-stamp-to-console-link-contents"></a>
 #### [getTime Method](#get-time-method-link) <a id="get-time-method-link-contents"></a>
@@ -32,7 +33,7 @@ Problem Part 2: Link not working when clicked
 
 ### [Unresolved](#unresolved-link-contents) <a id="unresolved-link"></a>
 
-## Development
+## [Development](#development-link-contents) <a id="development-link"></a>
 
 ### [Logging to Console](#logging-to-console-link-contents) <a id="logging-to-console-link"></a>
 
