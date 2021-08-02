@@ -9,7 +9,7 @@
 ## [Logging to Console](#logging-to-console-link) <a id="logging-to-console-link-contents"></a>
 ### [Logging Time / Date to Console](#logging-time-date-to-console-link) <a id="logging-time-date-to-console-link-contents"></a>
 ### [Logging Html code to Console](#logging-html-code-to-console-link) <a id="logging-html-code-to-console-link-contents"></a>
-## [References](#references-link) <a id="references-link"></a>
+## [References](#references-link) <a id="references-link-contents"></a>
 #-contents## [Logging Time Stamp to Console](#logging-time-stamp-to-console-link) <a id="logging-time-stamp-to-console-link-contents"></a>
 #### [getTime Method](#get-time-method-link) <a id="get-time-method-link-contents"></a>
 #### [Formatting Time Stamp](#formatting-time-stamp-link) <a id="formatting-time-stamp-link-contents"></a>
