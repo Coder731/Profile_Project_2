@@ -102,6 +102,11 @@ Problem Part 2: Link not working when clicked
   - Can log the following to console:
     - verbatim html code for input element
 
+#### Phase
+
+- Feeding search string into api search query
+- Adding ability to go to page
+
 ## [References](#references-link-contents) <a id="references-link"></a>
 
 - Use inline if statement to format display of minutes and seconds as double digits when logging partial time stamp to the developer console.  [Conditional (ternary) Operator](https://stackoverflow.com/questions/10270351/how-to-write-an-inline-if-statement-in-javascript)
