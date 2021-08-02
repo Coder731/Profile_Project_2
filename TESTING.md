@@ -38,6 +38,9 @@ Problem Part 2: Link not working when clicked
 
 #### [minor debugging Add leading zero to minutes and seconds for single digit quantities](#minor-debugging-add-leading-zero-to-minutes-and-seconds-for-single-digit-quantities-link-contents) <a id="minor-debugging-add-leading-zero-to-minutes-and-seconds-for-single-digit-quantities-link"></a>
 
+- Problem: Time logging single digit minutes or seconds to console for single digit quantities
+- Solution: Add separate inline if statement queries adding leading zero on condition that minutes or seconds, respectively, are single digit quantities.
+
 #### [minor debugging Adding Link to jump between Documents and Sections](#minor-debugging-adding-link-to-jump-between-documents-and-sections-link-contents) <a id="minor-debugging-adding-link-to-jump-between-documents-and-sections-link"></a>
 
 - For adding a link to jump between sections and documents, it was necessary to parse out which parts of the code used in the TESTING and README headings were the target (the anchor element) and which were targeting (the round bracket tag with hash prepended after square brackets)
