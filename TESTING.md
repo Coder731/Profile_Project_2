@@ -6,8 +6,8 @@
 ## [Bugs](#bugs-link) <a id="bugs-link-contents"></a>
 ### [Resolved](#resolved-link) <a id="resolved-link-contents"></a>
 #### [Linking internally in README and TESTING files [Resolved]](#linking-internally-in-readme-and-testing-files-resolved-link) <a id="linking-internally-in-readme-and-testing-files-resolved-link-contents"></a>
-#### [minor debugging Add leading zero to minutes and seconds for single digit quantities](#minor-debugging-add-leading-zero-to-minutes-and-seconds-for-single-digit-quantities-link) <a id="minor-debugging-add-leading-zero-to-minutes-and-seconds-for-single-digit-quantities-link-contents"></a>
-#### [minor debugging Adding Link to jump between Documents and Sections](#minor-debugging-adding-link-to-jump-between-documents-and-sections-link) <a id="minor-debugging-adding-link-to-jump-between-documents-and-sections-link-contents"></a>
+#### [minor debugging Add leading zero to minutes and seconds for single digit quantities [Resolved]](#minor-debugging-add-leading-zero-to-minutes-and-seconds-for-single-digit-quantities-resolved-link) <a id="minor-debugging-add-leading-zero-to-minutes-and-seconds-for-single-digit-quantities-resolved-link-contents"></a>
+#### [minor debugging Adding Link to jump between Documents and Sections [Resolved]](#minor-debugging-adding-link-to-jump-between-documents-and-sections-resolved-link) <a id="minor-debugging-adding-link-to-jump-between-documents-and-sections-resolved-link-contents"></a>
 ### [Unresolved](#unresolved-link) <a id="unresolved-link-contents"></a>
 ## [Development](#development-link) <a id="development-link-contents"></a>
 ### [Logging to Console](#logging-to-console-link) <a id="logging-to-console-link-contents"></a>
@@ -36,12 +36,12 @@
 Problem Part 2: Link not working when clicked
 - Resolution: Change id selector, so that unique from actual heading text, not only in terms of case sensitivity but also with regard to spelling.
 
-#### [minor debugging Add leading zero to minutes and seconds for single digit quantities](#minor-debugging-add-leading-zero-to-minutes-and-seconds-for-single-digit-quantities-link-contents) <a id="minor-debugging-add-leading-zero-to-minutes-and-seconds-for-single-digit-quantities-link"></a>
+#### [minor debugging Add leading zero to minutes and seconds for single digit quantities [Resolved]](#minor-debugging-add-leading-zero-to-minutes-and-seconds-for-single-digit-quantities-resolved-link-contents) <a id="minor-debugging-add-leading-zero-to-minutes-and-seconds-for-single-digit-quantities-resolved-link"></a>
 
 - Problem: Time logging single digit minutes or seconds to console for single digit quantities
 - Solution: Add separate inline if statement queries adding leading zero on condition that minutes or seconds, respectively, are single digit quantities.
 
-#### [minor debugging Adding Link to jump between Documents and Sections](#minor-debugging-adding-link-to-jump-between-documents-and-sections-link-contents) <a id="minor-debugging-adding-link-to-jump-between-documents-and-sections-link"></a>
+#### [minor debugging Adding Link to jump between Documents and Sections [Resolved]](#minor-debugging-adding-link-to-jump-between-documents-and-sections-resolved-link-contents) <a id="minor-debugging-adding-link-to-jump-between-documents-and-sections-resolved-link"></a>
 
 - For adding a link to jump between sections and documents, it was necessary to parse out which parts of the code used in the TESTING and README headings were the target (the anchor element) and which were targeting (the round bracket tag with hash prepended after square brackets)
 - Also, it was necessary to consistently apply one style of link for linking from Contents to Main Body (by appending "-link-contents" to selector) and to apply a different style of link for linking from Main Body back to Contents (by appending "-link" to selector).
