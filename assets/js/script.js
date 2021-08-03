@@ -102,7 +102,7 @@ document.addEventListener('click', function (event) {
                 // your trade message handler
                 break;
             }
-            });
+            };
 
             stocksWS.send({ action: "subscribe", params: "T.MSFT" });
 
