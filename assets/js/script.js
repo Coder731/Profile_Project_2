@@ -88,23 +88,7 @@ document.addEventListener('click', function (event) {
 
             reference.tickers.then(/* your success handler */);
 
-            // Websocket
-            // You can get preauthenticated websocket clients for the 3 topics.
 
-            import { websocketClient } from "@polygon.io/client-js";
-
-            const stocksWS = websocketClient("7NrgP4WkAHfhk8wvUn3Nrpn7MxaxDl5m").getStocksWebsocket();
-
-            stocksWs.onmessage = raw => {
-            const message = JSON.parse(raw);
-            switch (message.ev) {
-                case "T":
-                // your trade message handler
-                break;
-            }
-            };
-
-            stocksWS.send({ action: "subscribe", params: "T.MSFT" });
 
             // https://polygon.io/docs/get_v2_ticks_stocks_nbbo__ticker___date__anchor
             // Step 3 of 4:
