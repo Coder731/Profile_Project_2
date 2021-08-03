@@ -68,8 +68,8 @@ document.addEventListener('click', function (event) {
 
             rest.forex
             .previousClose()
-            .then(/* your success handler */)
-            .catch(/* your error handler*/);
+            .then(console.log("forex success"))
+            .catch(console.log("error"));
 
             // REST API
             // import all the rest submodule
@@ -78,7 +78,7 @@ document.addEventListener('click', function (event) {
 
             const rest = restClient("7NrgP4WkAHfhk8wvUn3Nrpn7MxaxDl5m");
 
-            rest.forex.previousClose().then(/* your success handler */);
+            rest.forex.previousClose().then(console.log("forex success 2"));
 
             // import a specific submodule
 
@@ -86,7 +86,7 @@ document.addEventListener('click', function (event) {
 
             const reference = referenceClient("7NrgP4WkAHfhk8wvUn3Nrpn7MxaxDl5m");
 
-            reference.tickers.then(/* your success handler */);
+            reference.tickers.then(console.log(referenceClient));
 
 
 
