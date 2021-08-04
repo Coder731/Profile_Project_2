@@ -14,10 +14,19 @@ const API_URL = "https://en.wikipedia.org/w/api.php";// Mentor directed this var
 
         // Number 13 is the "Enter" key on the keyboard
         if (event.keyCode === 13) {
-            event.preventDefault();
+                event.preventDefault();
 
-        // Mentor solved issue of how to take user input directly from input element using HTML DOM Input Text value Property, as described here: https://www.w3schools.com/jsref/prop_text_value.asp
-        const searchString=userInput.value// const, redesign and simplification of code as directed by mentor
+            // Mentor solved issue of how to take user input directly from input element using HTML DOM Input Text value Property, as described here: https://www.w3schools.com/jsref/prop_text_value.asp
+            const searchString=userInput.value// const, redesign and simplification of code as directed by mentor
+
+            // From Mentor Call: wikiResults with await: if key event is 13, use await to wait for a promise inside the async function above, pass searchString into getDataFromWiki function, save result in wikiResults
+            // Referred to the following document for await usage:
+            // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await
+            const wikiResults = await getDataFromWiki(searchString);
+        
+            // pass wikiResults into showWikiResults function:
+            showWikiResults(wikiResults);
+
         }// closing curly bracket for if statement
     });// closing curly bracket for async function and closing parenthesis for listener
 
