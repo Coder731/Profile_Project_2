@@ -1,14 +1,9 @@
 // See References at end of code for website addresses (to save space in code ) e.g. "// (Reference (1))", in code commments, refers to 1st Reference, given in last comment of this file, at end of code.
 // JavaScript getTime() Method (Reference (1))    // JavaScript getTime() Method    // Try It Yourself  (Reference (2))
-var url = "https://en.wikipedia.org/w/api.php"; 
+const API_URL = "https://en.wikipedia.org/w/api.php"; 
 
-
-// set a html element equal to something:  (Reference(6))
-let str = "Visit  W3Schools!"; 
-document.getElementById("output").innerHTML = str.search("W3Schools");
 
 // Simple Search in JavaScript [JavaScript Series]  (Reference(7))
-    // const searchInput = document.getElementById('search');
     const userInput = document.getElementById('userinput');
     let searchString='';
     userInput.addEventListener( 'input', (event) => {    console.log(event); searchString=searchString+event.data;console.log(searchString);    } );
@@ -38,7 +33,7 @@ document.addEventListener('click', function (event) {
 
         var params = {    action: "query",    list: "search",    srsearch: throughputVariable,    format: "json"    };
 
-        url = url + "?origin=*";
+        url = API_URL + "?origin=*";
         console.log(url);
         params.srsearch=searchString;
         console.log(params.srsearch);
