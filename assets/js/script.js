@@ -1,12 +1,15 @@
 // See References at end of code for website addresses (to save space in code ) e.g. "// (Reference (1))", in code commments, refers to 1st Reference, given in last comment of this file, at end of code.
 // JavaScript getTime() Method (Reference (1))    // JavaScript getTime() Method    // Try It Yourself  (Reference (2))
-const API_URL = "https://en.wikipedia.org/w/api.php"; 
+const API_URL = "https://en.wikipedia.org/w/api.php";// Mentor directed this variable name and const declaration rather than var
 
 
 // Simple Search in JavaScript [JavaScript Series]  (Reference(7))
-    const userInput = document.getElementById('wiki-userinput');
+    const userInput = document.getElementById('wiki-userinput');//Mentor directed using this id
 
-    userInput.addEventListener( 'input', (event) => {    console.log(event); 
+    // Mentor directed to use this code for coding Enter press to trigger Submit button press:
+    // https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp
+    userInput.addEventListener("keyup", async function (event) {
+        console.log(event);// Mentor directed to use correct linting for code readability
         searchString=searchString+event.data;console.log(searchString);    } );
 userInput.addEventListener("change", goWiki) 
 function goWiki() {    console.log("Enter pressed (after changed input to bar 2)");  params.srsearch=searchString; console.log("params.srsearch: "+params.srsearch); return params.srsearch; }
