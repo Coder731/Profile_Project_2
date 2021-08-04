@@ -63,6 +63,7 @@ Plan: To attempt to make a project with:
         - Different parts of code connected
         - retrieval of object converted to json object
         - parsing to extract data from json object
+        - always use proper linting for readability
 
 ## [Features](#features-link-contents) <a id="features-link"></a>
 
