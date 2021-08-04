@@ -31,7 +31,24 @@ const API_URL = "https://en.wikipedia.org/w/api.php";// Mentor directed this var
     });// closing curly bracket for async function and closing parenthesis for listener
 
     // Post Mentor Call 2: new function with searchQuery passed in:
-function getDataFromWiki(searchQuery) {    
+function getDataFromWiki(searchQuery) {   
+    
+    // Post Mentor Call 2: Moved this code block here:
+
+            // Post Mentor Call 2: Use correct linting:
+            var params = {    
+                action: "query",    
+                list: "search",    
+                srsearch: throughputVariable,    
+                format: "json"    
+            };
+    
+            // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
+            // The let statement declares a block-scoped local variable:
+            let url = API_URL + "?origin=*";
+
+
+
     console.log("Enter pressed (after changed input to bar 2)"); // Post Call 2 code linted correctly
     params.srsearch=searchString; 
     console.log("params.srsearch: "+params.srsearch); 
@@ -58,17 +75,6 @@ document.addEventListener('click', function (event) {
         
         // wiki api search part 2:
 
-        // Post Mentor Call 2: Use correct linting:
-        var params = {    
-            action: "query",    
-            list: "search",    
-            srsearch: throughputVariable,    
-            format: "json"    
-        };
-
-        // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
-        // The let statement declares a block-scoped local variable:
-        let url = API_URL + "?origin=*";
         console.log(url);
         params.srsearch=searchString;
         console.log(params.srsearch);
