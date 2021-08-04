@@ -58,6 +58,7 @@ document.addEventListener('click', function (event) {
         
         // wiki api search part 2:
 
+        // Post Mentor Call 2: Use correct linting:
         var params = {    
             action: "query",    
             list: "search",    
