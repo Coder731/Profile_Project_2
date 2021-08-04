@@ -4,7 +4,7 @@ const API_URL = "https://en.wikipedia.org/w/api.php";
 
 
 // Simple Search in JavaScript [JavaScript Series]  (Reference(7))
-    const userInput = document.getElementById('userinput');
+    const userInput = document.getElementById('wiki-userinput');
     let searchString='';
     userInput.addEventListener( 'input', (event) => {    console.log(event); searchString=searchString+event.data;console.log(searchString);    } );
 userInput.addEventListener("change", goWiki) 
