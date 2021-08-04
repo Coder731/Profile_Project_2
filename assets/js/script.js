@@ -4,7 +4,7 @@ const API_URL = "https://en.wikipedia.org/w/api.php";// Mentor directed this var
 
 
 // Simple Search in JavaScript [JavaScript Series]  (Reference(7))
-    const userInput = document.getElementById('wiki-userinput');//Mentor directed using this id
+    const userInput = document.getElementById('wiki-userinput');// Mentor directed using this id
 
     // Mentor directed to use this code for coding Enter press to trigger Submit button press:
     // https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp
@@ -15,7 +15,10 @@ const API_URL = "https://en.wikipedia.org/w/api.php";// Mentor directed this var
         // Number 13 is the "Enter" key on the keyboard
         if (event.keyCode === 13) {
             event.preventDefault();
+
+        // Mentor solved issue of how to take user input directly from input element using HTML DOM Input Text value Property, as described here: https://www.w3schools.com/jsref/prop_text_value.asp
         const searchString=userInput.value// const, redesign and simplification of code as directed by mentor
+        
 function goWiki() {    console.log("Enter pressed (after changed input to bar 2)");  params.srsearch=searchString; console.log("params.srsearch: "+params.srsearch); return params.srsearch; }
 //The vanilla JS way to listen for click events (Reference(9))
 document.addEventListener('click', function (event) {
