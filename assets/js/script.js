@@ -18,7 +18,9 @@ const API_URL = "https://en.wikipedia.org/w/api.php";// Mentor directed this var
 
         // Mentor solved issue of how to take user input directly from input element using HTML DOM Input Text value Property, as described here: https://www.w3schools.com/jsref/prop_text_value.asp
         const searchString=userInput.value// const, redesign and simplification of code as directed by mentor
-        
+        }// closing curly bracket for if statement
+    });// closing curly bracket for async function and closing parenthesis for listener
+
 function goWiki() {    console.log("Enter pressed (after changed input to bar 2)");  params.srsearch=searchString; console.log("params.srsearch: "+params.srsearch); return params.srsearch; }
 //The vanilla JS way to listen for click events (Reference(9))
 document.addEventListener('click', function (event) {
