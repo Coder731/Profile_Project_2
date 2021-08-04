@@ -9,7 +9,14 @@ const API_URL = "https://en.wikipedia.org/w/api.php";// Mentor directed this var
     // Mentor directed to use this code for coding Enter press to trigger Submit button press:
     // https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp
     userInput.addEventListener("keyup", async function (event) {
-        console.log(event);// Mentor directed to use correct linting for code readability
+
+        // next code block added as directed by mentor, sourced from https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp
+
+        // Number 13 is the "Enter" key on the keyboard
+        if (event.keyCode === 13) {
+            event.preventDefault();
+
+
         searchString=searchString+event.data;console.log(searchString);    } );
 userInput.addEventListener("change", goWiki) 
 function goWiki() {    console.log("Enter pressed (after changed input to bar 2)");  params.srsearch=searchString; console.log("params.srsearch: "+params.srsearch); return params.srsearch; }
