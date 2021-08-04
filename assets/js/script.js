@@ -58,7 +58,12 @@ document.addEventListener('click', function (event) {
         
         // wiki api search part 2:
 
-        var params = {    action: "query",    list: "search",    srsearch: throughputVariable,    format: "json"    };
+        var params = {    
+            action: "query",    
+            list: "search",    
+            srsearch: throughputVariable,    
+            format: "json"    
+        };
 
         // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
         // The let statement declares a block-scoped local variable:
