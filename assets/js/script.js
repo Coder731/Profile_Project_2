@@ -30,7 +30,11 @@ const API_URL = "https://en.wikipedia.org/w/api.php";// Mentor directed this var
         }// closing curly bracket for if statement
     });// closing curly bracket for async function and closing parenthesis for listener
 
-function goWiki() {    console.log("Enter pressed (after changed input to bar 2)");  params.srsearch=searchString; console.log("params.srsearch: "+params.srsearch); return params.srsearch; }
+function getDataFromWiki(searchQuery) {    
+    console.log("Enter pressed (after changed input to bar 2)");  
+    params.srsearch=searchString; 
+    console.log("params.srsearch: "+params.srsearch); 
+    return params.srsearch; }
 //The vanilla JS way to listen for click events (Reference(9))
 document.addEventListener('click', function (event) {
 	if (!event.target.matches('.search-bar')) return;  // If the clicked element doesn't have the right selector, bail
