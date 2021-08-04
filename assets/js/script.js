@@ -30,8 +30,9 @@ const API_URL = "https://en.wikipedia.org/w/api.php";// Mentor directed this var
         }// closing curly bracket for if statement
     });// closing curly bracket for async function and closing parenthesis for listener
 
+    // Post Mentor Call 2: new function with searchQuery passed in:
 function getDataFromWiki(searchQuery) {    
-    console.log("Enter pressed (after changed input to bar 2)");  
+    console.log("Enter pressed (after changed input to bar 2)"); // Post Call 2 code linted correctly
     params.srsearch=searchString; 
     console.log("params.srsearch: "+params.srsearch); 
     return params.srsearch; }
