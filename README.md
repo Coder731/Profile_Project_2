@@ -45,9 +45,24 @@ Plan: To attempt to make a project with:
 
 - [jump to TESTING.md Development](TESTING.md/#development-link) <a id="development-link-contents"></a>
 
+- Phase Mentor Call 1 Preparation: Add basic website structure.
+
+- Phase Mentor Call 1: Planning
+
 - Phase: add interface with search API and search bar
 
+- Phase: received help from tutor to use listener for enter key press
+
 - Phase: get user input to Html page to display in console
+
+- Phase: Mentor Call 2:
+    - Received help:
+        - to get JavaScript interfacing with Wikimedia and Polygon APIs.
+        - Excess code removed.
+        - async await implemented
+        - Different parts of code connected
+        - retrieval of object converted to json object
+        - parsing to extract data from json object
 
 ## [Features](#features-link-contents) <a id="features-link"></a>
 
