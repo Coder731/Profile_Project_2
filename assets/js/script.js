@@ -60,7 +60,9 @@ document.addEventListener('click', function (event) {
 
         var params = {    action: "query",    list: "search",    srsearch: throughputVariable,    format: "json"    };
 
-        url = API_URL + "?origin=*";
+        // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
+        // The let statement declares a block-scoped local variable:
+        let url = API_URL + "?origin=*";
         console.log(url);
         params.srsearch=searchString;
         console.log(params.srsearch);
@@ -83,34 +85,7 @@ document.addEventListener('click', function (event) {
             // Authentication
             // call the desired client with your api key to initialize it
 
-            import { polygonClient, restClient, websocketClient } from "@polygon.io/client-js";
             const rest = restClient("7NrgP4WkAHfhk8wvUn3Nrpn7MxaxDl5m");
-
-            // you can use the api now
-
-            rest.forex
-            .previousClose()
-            .then(console.log("forex success"))
-            .catch(console.log("error"));
-
-            // REST API
-            // import all the rest submodule
-
-            import { restClient } from "@polygon.io/client-js";
-
-            const rest = restClient("7NrgP4WkAHfhk8wvUn3Nrpn7MxaxDl5m");
-
-            rest.forex.previousClose().then(console.log("forex success 2"));
-
-            // import a specific submodule
-
-            import { referenceClient } from "@polygon.io/client-js";
-
-            const reference = referenceClient("7NrgP4WkAHfhk8wvUn3Nrpn7MxaxDl5m");
-
-            reference.tickers.then(console.log(referenceClient));
-
-
 
             // https://polygon.io/docs/get_v2_ticks_stocks_nbbo__ticker___date__anchor
             // Step 3 of 4:
