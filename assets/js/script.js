@@ -15,10 +15,7 @@ const API_URL = "https://en.wikipedia.org/w/api.php";// Mentor directed this var
         // Number 13 is the "Enter" key on the keyboard
         if (event.keyCode === 13) {
             event.preventDefault();
-
-
-        searchString=searchString+event.data;console.log(searchString);    } );
-userInput.addEventListener("change", goWiki) 
+        const searchString=userInput.value// const, redesign and simplification of code as directed by mentor
 function goWiki() {    console.log("Enter pressed (after changed input to bar 2)");  params.srsearch=searchString; console.log("params.srsearch: "+params.srsearch); return params.srsearch; }
 //The vanilla JS way to listen for click events (Reference(9))
 document.addEventListener('click', function (event) {
