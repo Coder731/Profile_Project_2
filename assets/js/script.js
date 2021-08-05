@@ -58,9 +58,7 @@ document.addEventListener('click', function (event) {
 	if (!event.target.matches('.search-bar')) return;  // If the clicked element doesn't have the right selector, bail
 	event.preventDefault();  // Don't follow the link
     // (Reference (10))|log time of click|Get current time in Hours24: Minutes: Seconds format in JavaScript|(Reference(11))|(Reference (12))|Display minutes and seconds as two digits:
-        var dt = new Date(); //Date constructor 
-        var mm = (dt.getMinutes()<10?'0':'') + dt.getMinutes();  var ss = (dt.getSeconds()<10?'0':'') + dt.getSeconds();
-        console.log("Clicked on search bar 2 at " + mm + ":" + ss);  /*log click amd time:*/   }, false);
+
 
         // https://stackoverflow.com/questions/21338476/addeventlistener-on-form-submit
         document.getElementById('userinput').addEventListener('submit', function(event){
@@ -81,7 +79,7 @@ document.addEventListener('click', function (event) {
         Object.keys(params).forEach(function(key){
             url += "&" + key + "=" + params[key];
         });
-        
+
         fetch(url)  .then(function(response){return response.json();})
             .then(function(response) {if (response.query.search[0].title==="Nelson Mandela"){console.log("Your search page 'Nelson Mandela' exists on English Wikipedia");  }  })
             .catch(function(error){console.log(error);});
