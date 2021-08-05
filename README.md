@@ -100,6 +100,7 @@ Plan: To attempt to make a project with:
 - Retrieve images
 - Employ simple calculations on pages other than home page
 - Customise mobile User Experience other than just using media queries for responsive view
+- News Aggregator
 
 ## [References](#references-link-contents) <a id="references-link"></a>
 
