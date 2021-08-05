@@ -181,7 +181,7 @@ function getDataFromPolygon(searchQuery) {
 
 
         // Post Mentor Call 2: Added return to start of fetch method:
-        return fetch(url).then(function(response) {
+        return fetch(url).then(function (response) {
             return response.json();
         })
         .then(function (response) {
