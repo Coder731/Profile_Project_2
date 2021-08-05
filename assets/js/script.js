@@ -71,16 +71,22 @@ function getDataFromWiki(searchQuery) {
             }  
         
 
-                console.log(url);
-                let url2= "https://en.wikipedia.org/?curid=<pageId>"
-                console.log(url2);
-                // https://youtu.be/Dk6Wopar10k?t=4421
-                let searchString2=document.getElementById("userinput").value;
-                console.log("searchString2: "+searchString2);
+// Post Mentor Call 2:
+            function showWikiResults(reults) {
+                const resultsStr = results.map(eachResult => {//use arrow function, reference for information: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+                    // use template literal to build Html code with url, reference for information: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
+                    return `
+                    <div>
+                    <a target="_blank" href="https://en.wikiedia.org/?curid=${eachResult.pageid}">
+                    ${eachResult.title}
+                    </a>
+                    </div>
+                    `
+                });
+                document.getElementById("wiki-output").innerHTML = resultsStr;
+            }
 
-    params.srsearch=searchString; 
-    console.log("params.srsearch: "+params.srsearch); 
-    return params.srsearch; 
+
 
 
 //The vanilla JS way to listen for click events (Reference(9))
