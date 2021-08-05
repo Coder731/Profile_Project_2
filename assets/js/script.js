@@ -153,8 +153,8 @@ polygonUserInput.addEventListener("keyup", async function (event) {
         // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await
         const results = await getDataFromPolygon(searchString);
     
-        // pass wikiResults into showWikiResults function:
-        showWikiResults(results);
+        // pass wikiResults into showPolygonResults function:
+        showPolygonResults(results);
 
     }// closing curly bracket for if statement
 });// closing curly bracket for async function and closing parenthesis for listener
@@ -201,7 +201,7 @@ function getDataFromPolygon(searchQuery) {
     
 
 // Post Mentor Call 2:
-        function showWikiResults(reults) {
+        function showPolygonResults(reults) {
             const resultsStr = results.map(eachResult => {//use arrow function, reference for information: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
                 // use template literal to build Html code with url, reference for information: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
                 return `
