@@ -61,7 +61,9 @@ function getDataFromWiki(searchQuery) {
                     console.log("Your search page 'Nelson Mandela' exists on English Wikipedia");  
                 }  
             })
-                .catch(function(error){console.log(error);});
+            .catch(function(error){
+                console.log(error);
+            });
                 console.log(url);
                 let url2= "https://en.wikipedia.org/?curid=<pageId>"
                 console.log(url2);
