@@ -167,8 +167,15 @@ function getDataFromPolygon(searchQuery) {
 
 
         // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
-        // The let statement declares a block-scoped local variable:
-        let url = API_URL + "?origin=*";
+        // The let statement declares a block-scoped local variable.
+
+        // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const
+        // Constants are block-scoped, much like variables declared using the let keyword. The value of a constant can't be changed through reassignment, and it can't be redeclared.
+
+        // url taken from:
+        // https://polygon.io/docs/get_v1_meta_symbols__stocksTicker__company_anchor
+
+        const url = `https://api.polygon.io/v1/meta/symbols/AAPL/company?&apiKey=7NrgP4WkAHfhk8wvUn3Nrpn7MxaxDl5m`
 
 
         Object.keys(params).forEach(function(key){
