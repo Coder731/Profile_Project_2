@@ -148,10 +148,10 @@ polygonUserInput.addEventListener("keyup", async function (event) {
         // Mentor solved issue of how to take user input directly from input element using HTML DOM Input Text value Property, as described here: https://www.w3schools.com/jsref/prop_text_value.asp
         const searchString=polygonUserInput.value// const, redesign and simplification of code as directed by mentor
 
-        // From Mentor Call: wikiResults with await: if key event is 13, use await to wait for a promise inside the async function above, pass searchString into getDataFromWiki function, save result in wikiResults
+        // From Mentor Call: wikiResults with await: if key event is 13, use await to wait for a promise inside the async function above, pass searchString into getDataFromPolygon function, save result in wikiResults
         // Referred to the following document for await usage:
         // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await
-        const results = await getDataFromWiki(searchString);
+        const results = await getDataFromPolygon(searchString);
     
         // pass wikiResults into showWikiResults function:
         showWikiResults(results);
@@ -160,7 +160,7 @@ polygonUserInput.addEventListener("keyup", async function (event) {
 });// closing curly bracket for async function and closing parenthesis for listener
 
 // Post Mentor Call 2: new function with searchQuery passed in:
-function getDataFromWiki(searchQuery) {   
+function getDataFromPolygon(searchQuery) {   
 
 // Post Mentor Call 2: Moved this code block here:
 
