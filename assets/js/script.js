@@ -54,6 +54,7 @@ function getDataFromWiki(searchQuery) {
                 url += "&" + key + "=" + params[key];
             });
 
+            // Post Mentor Call 2: Added return to start of fetch method:
             return fetch(url).then(function(response) {
                 return response.json();
             })
