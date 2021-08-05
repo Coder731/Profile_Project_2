@@ -39,7 +39,7 @@ function getDataFromWiki(searchQuery) {
             var params = {    
                 action: "query",    
                 list: "search",    
-                srsearch: throughputVariable,    
+                srsearch: searchQuery,    
                 format: "json"    
             };
     
