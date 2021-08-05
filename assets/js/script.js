@@ -75,6 +75,7 @@ function getDataFromWiki(searchQuery) {
     console.log("params.srsearch: "+params.srsearch); 
     return params.srsearch; 
 }
+
 //The vanilla JS way to listen for click events (Reference(9))
 document.addEventListener('click', function (event) {
 	if (!event.target.matches('.search-bar')) return;  // If the clicked element doesn't have the right selector, bail
