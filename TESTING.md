@@ -58,14 +58,13 @@ Problem Part 2: Link not working when clicked
 
 #### [Some Tickers do not return results](#some-tickers-do-not-return-results-link-contents) <a id="some-tickers-do-not-return-results-link">
 
-- Two tickers HOOD and NAUT entered into search returned unknown results for CEO etc.
+- Some entered into search returned unknown results for CEO etc.
 - Potential causes:
   - New ticker symbol
   - Mistyped
   - Not on a certain exchange
   - Not featured on API 
-  - Potentially NASDAQ stocks?
-    - HOOD (Robinhood) is a NASDAQ stock
+  - Potentially issue with NASDAQ stocks or stocks traded on certain exchanges
   - Potentially restriction on Polygon API free version
 
 #### [Embedding Second Search Bar Using Google Search is not secure](#embedding-second-search-bar-using-google-search-is-not-secure-link-contents) <a id="embedding-second-search-bar-using-google-search-is-not-secure-link"></a>
