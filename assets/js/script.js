@@ -133,11 +133,11 @@ document.addEventListener('click', function (event) {
 
 
 // Simple Search in JavaScript [JavaScript Series]  (Reference(7))
-const userInput = document.getElementById('wiki-userinput');// Mentor directed using this id
+const polygonUserInput = document.getElementById('polygon-userinput');// Mentor directed using this id
 
 // Mentor directed to use this code for coding Enter press to trigger Submit button press:
 // https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp
-userInput.addEventListener("keyup", async function (event) {
+polygonUserInput.addEventListener("keyup", async function (event) {
 
     // next code block added as directed by mentor, sourced from https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp
 
@@ -146,7 +146,7 @@ userInput.addEventListener("keyup", async function (event) {
             event.preventDefault();
 
         // Mentor solved issue of how to take user input directly from input element using HTML DOM Input Text value Property, as described here: https://www.w3schools.com/jsref/prop_text_value.asp
-        const searchString=userInput.value// const, redesign and simplification of code as directed by mentor
+        const searchString=polygonUserInput.value// const, redesign and simplification of code as directed by mentor
 
         // From Mentor Call: wikiResults with await: if key event is 13, use await to wait for a promise inside the async function above, pass searchString into getDataFromWiki function, save result in wikiResults
         // Referred to the following document for await usage:
