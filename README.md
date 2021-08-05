@@ -104,8 +104,7 @@ Phase: Attempt to interface with Yahoo finance API
 
 - Employ some sort of sorting algorithm taking top 10 search results and displaying only the top 2
 
-- Interface with Yahoo Finance API
-- Interface with Google Finance API
+- Add other finance APIs
 
 - News Aggregator
 
