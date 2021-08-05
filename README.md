@@ -5,7 +5,7 @@
 ## [Overview](#overview-link) <a id="overview-link-contents"></a>
 ## [Development](#development-link) <a id="development-link-contents"></a>
 ## [Features](#features-link) <a id="features-link-contents"></a>
-## [Design](#design-link) <a id="design- link- contents"></a>
+## [Design](#design-link) <a id="design-link-contents"></a>
 ## [Testing](#testing-link) <a id="testing-link-contents"></a>
 ## [Wireframe](#wireframe-link) <a id="wireframe-link-contents"></a>
 ## [References](#references-link) <a id="references-link-contents"></a>
