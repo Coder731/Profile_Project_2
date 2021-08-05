@@ -150,7 +150,7 @@ function getDataFromPolygon(searchQuery) {
 
 
 // Post Mentor Call 2:
-        function showPolygonResults(reults) {
+        function showPolygonResults(results) {
             const resultsStr = 
                 // use template literal to build Html code with url, reference for information: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
                 `
