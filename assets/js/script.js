@@ -189,10 +189,6 @@ function getDataFromPolygon(searchQuery) {
         });
 }
 
-        function getSearchResultsFromData(response) {
-            return response.query.search;
-        }  
-    
 
 // Post Mentor Call 2:
         function showPolygonResults(reults) {
