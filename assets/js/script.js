@@ -151,10 +151,10 @@ polygonUserInput.addEventListener("keyup", async function (event) {
         // From Mentor Call: wikiResults with await: if key event is 13, use await to wait for a promise inside the async function above, pass searchString into getDataFromWiki function, save result in wikiResults
         // Referred to the following document for await usage:
         // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await
-        const wikiResults = await getDataFromWiki(searchString);
+        const results = await getDataFromWiki(searchString);
     
         // pass wikiResults into showWikiResults function:
-        showWikiResults(wikiResults);
+        showWikiResults(results);
 
     }// closing curly bracket for if statement
 });// closing curly bracket for async function and closing parenthesis for listener
