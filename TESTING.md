@@ -10,6 +10,7 @@
 #### [minor debugging Adding Link to jump between Documents and Sections [Resolved]](#minor-debugging-adding-link-to-jump-between-documents-and-sections-resolved-link) <a id="minor-debugging-adding-link-to-jump-between-documents-and-sections-resolved-link-contents"></a>
 ### [Unresolved](#unresolved-link) <a id="unresolved-link-contents"></a>
 #### [Some Tickers do not return results](#some-tickers-do-not-return-results-link) <a id="some-tickers-do-not-return-results-link-contents">
+#### [Embedding Second Search Bar Using Google Search is not secure](#embedding-second-search-bar-using-google-search-is-not-secure-link) <a id="embedding-second-search-bar-using-google-search-is-not-secure-link-contents"></a>
 ## [Development](#development-link) <a id="development-link-contents"></a>
 ### [Logging to Console](#logging-to-console-link) <a id="logging-to-console-link-contents"></a>
 #### [Logging Time / Date to Console](#logging-time-date-to-console-link) <a id="logging-time-date-to-console-link-contents"></a>
@@ -66,6 +67,14 @@ Problem Part 2: Link not working when clicked
   - Potentially NASDAQ stocks?
     - HOOD (Robinhood) is a NASDAQ stock
   - Potentially restriction on Polygon API free version
+
+#### [Embedding Second Search Bar Using Google Search is not secure](#embedding-second-search-bar-using-google-search-is-not-secure-link-contents) <a id="embedding-second-search-bar-using-google-search-is-not-secure-link"></a>
+
+- Tried adding code from here:
+  - https://www.developerdrive.com/add-a-simple-google-yahoo-or-bing-search-box-to-your-website/
+- However, the following warning displays on newly added search box:
+  - "the form is not secure autofill has been turned off"
+- Therefore, code removed.
 
 #### Reload bug
 
