@@ -162,9 +162,8 @@ polygonUserInput.addEventListener("keyup", async function (event) {
 // Post Mentor Call 2: new function with searchQuery passed in:
 function getDataFromPolygon(searchQuery) {   
 
-// Post Mentor Call 2: Moved this code block here:
+// Post Mentor Call 2: 
 
-        // Post Mentor Call 2: Use correct linting:
 
 
         // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
