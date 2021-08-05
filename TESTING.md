@@ -9,6 +9,7 @@
 #### [minor debugging Add leading zero to minutes and seconds for single digit quantities [Resolved]](#minor-debugging-add-leading-zero-to-minutes-and-seconds-for-single-digit-quantities-resolved-link) <a id="minor-debugging-add-leading-zero-to-minutes-and-seconds-for-single-digit-quantities-resolved-link-contents"></a>
 #### [minor debugging Adding Link to jump between Documents and Sections [Resolved]](#minor-debugging-adding-link-to-jump-between-documents-and-sections-resolved-link) <a id="minor-debugging-adding-link-to-jump-between-documents-and-sections-resolved-link-contents"></a>
 ### [Unresolved](#unresolved-link) <a id="unresolved-link-contents"></a>
+#### [Some Tickers do not return results](#some-tickers-do-not-return-results-link) <a id="some-tickers-do-not-return-results-link-contents">
 ## [Development](#development-link) <a id="development-link-contents"></a>
 ### [Logging to Console](#logging-to-console-link) <a id="logging-to-console-link-contents"></a>
 #### [Logging Time / Date to Console](#logging-time-date-to-console-link) <a id="logging-time-date-to-console-link-contents"></a>
@@ -53,6 +54,17 @@ Problem Part 2: Link not working when clicked
 - Solution: remove spaces from id in anchor element
 
 ### [Unresolved](#unresolved-link-contents) <a id="unresolved-link"></a>
+
+#### [Some Tickers do not return results](#some-tickers-do-not-return-results-link-contents) <a id="some-tickers-do-not-return-results-link">
+
+- Two tickers HOOD and NAUT entered into search returned unknown results for CEO etc.
+- Potential causes:
+  - New ticker symbol
+  - Mistyped
+  - Not on a certain exchange
+  - Not featured on API 
+  - Potentially NASDAQ stocks?
+  - Potentially restriction on Polygon API free version
 
 #### Reload bug
 
