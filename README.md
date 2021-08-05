@@ -5,6 +5,7 @@
 ## [Overview](#overview-link) <a id="overview-link-contents"></a>
 ## [Development](#development-link) <a id="development-link-contents"></a>
 ## [Features](#features-link) <a id="features-link-contents"></a>
+## [Design](#design-link) <a id="design- link- contents"></a>
 ## [Testing](#testing-link) <a id="testing-link-contents"></a>
 ## [Wireframe](#wireframe-link) <a id="wireframe-link-contents"></a>
 ## [References](#references-link) <a id="references-link-contents"></a>
@@ -68,6 +69,11 @@ Plan: To attempt to make a project with:
 ## [Features](#features-link-contents) <a id="features-link"></a>
 
 - Two Search bars
+
+## [Design](#design-link-contents) <a id="design-link"></a>
+
+- Sourced basic css styling from here:
+    - [styling for Portfolio_Project_1](https://github.com/Coder731/Portfolio_Project_1/tree/main/assets/css)
 
 ## [Testing](#testing-link-contents) <a id="testing-link"></a>
 
