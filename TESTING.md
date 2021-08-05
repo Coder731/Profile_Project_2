@@ -47,6 +47,11 @@ Problem Part 2: Link not working when clicked
 - Also, it was necessary to consistently apply one style of link for linking from Contents to Main Body (by appending "-link-contents" to selector) and to apply a different style of link for linking from Main Body back to Contents (by appending "-link" to selector).
 - Where this was not followed there the links did not function until it was corrected.
 
+#### [minor debugging Fix link to anchor id in README [Resolved]](#minor-debugging-fix-link-to-anchor-id-in-readme-resolved-link-contents) <a id="minor-debugging-fix-link-to-anchor-id-in-readme-resolved-link"></a>
+
+- Problem: link not working
+- Solution: remove spaces from id in anchor element
+
 ### [Unresolved](#unresolved-link-contents) <a id="unresolved-link"></a>
 
 #### Reload bug
