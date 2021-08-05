@@ -175,7 +175,8 @@ function getDataFromPolygon(searchQuery) {
         // url taken from:
         // https://polygon.io/docs/get_v1_meta_symbols__stocksTicker__company_anchor
 
-        const url = `https://api.polygon.io/v1/meta/symbols/AAPL/company?&apiKey=7NrgP4WkAHfhk8wvUn3Nrpn7MxaxDl5m`
+        // modify url to use any ticker symbol, by passing in searchQuery to supply user inputted ticker symbol using a template literal:
+        const url = `https://api.polygon.io/v1/meta/symbols/${searchQuery}/company?&apiKey=7NrgP4WkAHfhk8wvUn3Nrpn7MxaxDl5m`
 
 
         Object.keys(params).forEach(function(key){
