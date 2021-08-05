@@ -57,7 +57,10 @@ function getDataFromWiki(searchQuery) {
                 return response.json();
             })
             .then(function (response) {
-                if (response.query.search[0].title==="Nelson Mandela") {console.log("Your search page 'Nelson Mandela' exists on English Wikipedia");  }  })
+                if (response.query.search[0].title==="Nelson Mandela") {
+                    console.log("Your search page 'Nelson Mandela' exists on English Wikipedia");  
+                }  
+            })
                 .catch(function(error){console.log(error);});
                 console.log(url);
                 let url2= "https://en.wikipedia.org/?curid=<pageId>"
