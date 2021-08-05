@@ -59,6 +59,8 @@ function getDataFromWiki(searchQuery) {
                 return response.json();
             })
             .then(function (response) {
+                return getSearchResultsFromData(response);//  Added Post Mentor Call 2  
+            })
                 if (response.query.search[0].title==="Nelson Mandela") {
                     console.log("Your search page 'Nelson Mandela' exists on English Wikipedia");  
                 }  
