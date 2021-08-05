@@ -203,7 +203,7 @@ function getDataFromPolygon(searchQuery) {
                 </div>
                 `
             ;
-            document.getElementById("wiki-output").innerHTML = resultsStr;
+            document.getElementById("polygon-output").innerHTML = resultsStr;
         }
 
 
