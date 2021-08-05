@@ -184,9 +184,7 @@ function getDataFromPolygon(searchQuery) {
         return fetch(url).then(function (response) {
             return response.json();
         })
-        .then(function (response) {
-            return getSearchResultsFromData(response);//  Added Post Mentor Call 2  // Reference for writing commit: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises
-        })
+        
         
         .catch(function(error){
             console.log(error);
