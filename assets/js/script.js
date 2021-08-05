@@ -90,13 +90,11 @@ function getDataFromWiki(searchQuery) {
             // Duplicate code used for Wikimedia API and use as template for Polygon API:
 
 
-
-// Simple Search in JavaScript [JavaScript Series]  (Reference(7))
-const polygonUserInput = document.getElementById('polygon-userinput');// Mentor directed using this id
+// Instead of creating a new user input variable, reuse the original variable from Wikimedia API for use in Polygon API:
 
 // Mentor directed to use this code for coding Enter press to trigger Submit button press:
 // https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp
-polygonUserInput.addEventListener("keyup", async function (event) {
+userInput.addEventListener("keyup", async function (event) {
 
     // next code block added as directed by mentor, sourced from https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp
 
@@ -105,7 +103,7 @@ polygonUserInput.addEventListener("keyup", async function (event) {
             event.preventDefault();
 
         // Mentor solved issue of how to take user input directly from input element using HTML DOM Input Text value Property, as described here: https://www.w3schools.com/jsref/prop_text_value.asp
-        const searchString=polygonUserInput.value// const, redesign and simplification of code as directed by mentor
+        const searchString=userInput.value// const, redesign and simplification of code as directed by mentor
 
         // From Mentor Call: wikiResults with await: if key event is 13, use await to wait for a promise inside the async function above, pass searchString into getDataFromPolygon function, save result in wikiResults
         // Referred to the following document for await usage:
