@@ -87,7 +87,7 @@ function getDataFromWiki(searchQuery) {
             }
 
 
-
+// Residual Code Block after Wikimedia API code working after Mentor Call 2 :
 
 //The vanilla JS way to listen for click events (Reference(9))
 document.addEventListener('click', function (event) {
@@ -125,6 +125,99 @@ document.addEventListener('click', function (event) {
 
             // https://polygon.io/docs/get_v2_ticks_stocks_nbbo__ticker___date__anchor
             // Step 3 of 4:
+
+
+
+            // Duplicate code used for Wikimedia API and use as template for Polygon API:
+
+
+
+// Simple Search in JavaScript [JavaScript Series]  (Reference(7))
+const userInput = document.getElementById('wiki-userinput');// Mentor directed using this id
+
+// Mentor directed to use this code for coding Enter press to trigger Submit button press:
+// https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp
+userInput.addEventListener("keyup", async function (event) {
+
+    // next code block added as directed by mentor, sourced from https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp
+
+    // Number 13 is the "Enter" key on the keyboard
+    if (event.keyCode === 13) {
+            event.preventDefault();
+
+        // Mentor solved issue of how to take user input directly from input element using HTML DOM Input Text value Property, as described here: https://www.w3schools.com/jsref/prop_text_value.asp
+        const searchString=userInput.value// const, redesign and simplification of code as directed by mentor
+
+        // From Mentor Call: wikiResults with await: if key event is 13, use await to wait for a promise inside the async function above, pass searchString into getDataFromWiki function, save result in wikiResults
+        // Referred to the following document for await usage:
+        // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await
+        const wikiResults = await getDataFromWiki(searchString);
+    
+        // pass wikiResults into showWikiResults function:
+        showWikiResults(wikiResults);
+
+    }// closing curly bracket for if statement
+});// closing curly bracket for async function and closing parenthesis for listener
+
+// Post Mentor Call 2: new function with searchQuery passed in:
+function getDataFromWiki(searchQuery) {   
+
+// Post Mentor Call 2: Moved this code block here:
+
+        // Post Mentor Call 2: Use correct linting:
+                // wiki api search part 2:
+
+        var params = {    
+            action: "query",    
+            list: "search",    
+            srsearch: searchQuery,    
+            format: "json"    
+        };
+
+        // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
+        // The let statement declares a block-scoped local variable:
+        let url = API_URL + "?origin=*";
+
+
+        Object.keys(params).forEach(function(key){
+            url += "&" + key + "=" + params[key];
+        });
+
+        // Post Mentor Call 2: Added return to start of fetch method:
+        return fetch(url).then(function(response) {
+            return response.json();
+        })
+        .then(function (response) {
+            return getSearchResultsFromData(response);//  Added Post Mentor Call 2  // Reference for writing commit: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises
+        })
+        
+        .catch(function(error){
+            console.log(error);
+        });
+}
+        function getSearchResultsFromData(response) {
+            return response.query.search;
+        }  
+    
+
+// Post Mentor Call 2:
+        function showWikiResults(reults) {
+            const resultsStr = results.map(eachResult => {//use arrow function, reference for information: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+                // use template literal to build Html code with url, reference for information: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
+                return `
+                <div>
+                <a target="_blank" href="https://en.wikiedia.org/?curid=${eachResult.pageid}">
+                ${eachResult.title}
+                </a>
+                </div>
+                `
+            });
+            document.getElementById("wiki-output").innerHTML = resultsStr;
+        }
+
+
+
+
 
 /* References:
 1. https://www.w3schools.com/jsref/jsref_gettime.asp
