@@ -54,7 +54,15 @@ function getDataFromWiki(searchQuery) {
             fetch(url).then(function(response) {
                 return response.json();
             })
-
+            .then(function (response) {
+                if (response.query.search[0].title==="Nelson Mandela") {console.log("Your search page 'Nelson Mandela' exists on English Wikipedia");  }  })
+                .catch(function(error){console.log(error);});
+                console.log(url);
+                let url2= "https://en.wikipedia.org/?curid=<pageId>"
+                console.log(url2);
+                // https://youtu.be/Dk6Wopar10k?t=4421
+                let searchString2=document.getElementById("userinput").value;
+                console.log("searchString2: "+searchString2);
 
     params.srsearch=searchString; 
     console.log("params.srsearch: "+params.srsearch); 
@@ -84,15 +92,7 @@ document.addEventListener('click', function (event) {
 
 
 
-        .then(function (response) {
-            if (response.query.search[0].title==="Nelson Mandela"){console.log("Your search page 'Nelson Mandela' exists on English Wikipedia");  }  })
-            .catch(function(error){console.log(error);});
-            console.log(url);
-            let url2= "https://en.wikipedia.org/?curid=<pageId>"
-            console.log(url2);
-            // https://youtu.be/Dk6Wopar10k?t=4421
-            let searchString2=document.getElementById("userinput").value;
-            console.log("searchString2: "+searchString2);
+}, false)// Brackets and Boolean added to close out listener
 
             let polygonVariable="https://api.polygon.io/v2/aggs/ticker/AAPL/range/1/day/2020-06-01/2020-06-17?apiKey=7NrgP4WkAHfhk8wvUn3Nrpn7MxaxDl5m"
 
