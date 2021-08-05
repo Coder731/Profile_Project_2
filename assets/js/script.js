@@ -192,16 +192,17 @@ function getDataFromPolygon(searchQuery) {
 
 // Post Mentor Call 2:
         function showPolygonResults(reults) {
-            const resultsStr = results.map(eachResult => {//use arrow function, reference for information: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+            const resultsStr = 
                 // use template literal to build Html code with url, reference for information: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
-                return `
+                `
                 <div>
-                <a target="_blank" href="https://en.wikiedia.org/?curid=${eachResult.pageid}">
-                ${eachResult.title}
-                </a>
+                <p>Name: ${results.name}</p>
+                <p>CEO: ${results.ceo}</p>
+                <p>description: ${results.description}</p>
+                <p>url: ${results.url}</p>
                 </div>
                 `
-            });
+            ;
             document.getElementById("wiki-output").innerHTML = resultsStr;
         }
 
