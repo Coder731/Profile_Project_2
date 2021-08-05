@@ -86,9 +86,7 @@ document.addEventListener('click', function (event) {
         
         // wiki api search part 2:
 
-        console.log(url);
-        params.srsearch=searchString;
-        console.log(params.srsearch);
+
 
 
 
