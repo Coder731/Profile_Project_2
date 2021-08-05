@@ -49,7 +49,6 @@ function getDataFromWiki(searchQuery) {
 
 
 
-    console.log("Enter pressed (after changed input to bar 2)"); // Post Call 2 code linted correctly
     params.srsearch=searchString; 
     console.log("params.srsearch: "+params.srsearch); 
     return params.srsearch; }
