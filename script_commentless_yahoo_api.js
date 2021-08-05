@@ -167,22 +167,3 @@ function getDataFromPolygon(searchQuery) {
 // Attempt to add Yahoo API
 
 `https://yfapi.net/v6/finance/quote?region=US&lang=en&symbols=AAPL%2CBTC-USD%2CEURUSD%3DX`
-
-
-
-/* References:
-1. https://www.w3schools.com/jsref/jsref_gettime.asp
-2. https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_gettime
-3. https://www.w3docs.com/snippets/javascript/how-to-get-a-timestamp-in-javascript.html
-4. https://stackoverflow.com/questions/37096367/how-to-convert-seconds-to-minutes-and-hours-in-javascript
-5. 
-6. https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_search
-7. https://www.youtube.com/watch?v=SWkPXbQXArk&t=1s
-8. 
-9. https://gomakethings.com/listening-for-click-events-with-vanilla-javascript/#the-vanilla-js-way-to-listen-for-click-events
-10. 
-11. 
-12. 
-13.
-14. 
-15.                                          */
