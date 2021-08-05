@@ -179,9 +179,6 @@ function getDataFromPolygon(searchQuery) {
         const url = `https://api.polygon.io/v1/meta/symbols/${searchQuery}/company?&apiKey=7NrgP4WkAHfhk8wvUn3Nrpn7MxaxDl5m`
 
 
-        Object.keys(params).forEach(function(key){
-            url += "&" + key + "=" + params[key];
-        });
 
         // Post Mentor Call 2: Added return to start of fetch method:
         return fetch(url).then(function(response) {
