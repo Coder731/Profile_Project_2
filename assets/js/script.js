@@ -53,7 +53,8 @@ function getDataFromWiki(searchQuery) {
             Object.keys(params).forEach(function(key){
                 url += "&" + key + "=" + params[key];
             });
-            fetch(url).then(function(response) {
+
+            return fetch(url).then(function(response) {
                 return response.json();
             })
             .then(function (response) {
