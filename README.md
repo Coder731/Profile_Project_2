@@ -86,6 +86,10 @@ Plan: To attempt to make a project with:
 
 ## [Unimplemented](#unimplemented-link-contents) <a id="unimplemented-link"></a>
 
+### Small changes
+- Add favicon image to tab
+
+### Stretch Objectives
 - Retrieve graph of results for historical financial data
 - Retrieve current stock price
     - not available from Polygon API without paid plan
