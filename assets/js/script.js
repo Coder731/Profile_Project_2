@@ -165,14 +165,7 @@ function getDataFromPolygon(searchQuery) {
 // Post Mentor Call 2: Moved this code block here:
 
         // Post Mentor Call 2: Use correct linting:
-                // wiki api search part 2:
 
-        var params = {    
-            action: "query",    
-            list: "search",    
-            srsearch: searchQuery,    
-            format: "json"    
-        };
 
         // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
         // The let statement declares a block-scoped local variable:
