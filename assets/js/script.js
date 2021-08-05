@@ -36,6 +36,8 @@ function getDataFromWiki(searchQuery) {
     // Post Mentor Call 2: Moved this code block here:
 
             // Post Mentor Call 2: Use correct linting:
+                    // wiki api search part 2:
+
             var params = {    
                 action: "query",    
                 list: "search",    
@@ -84,7 +86,6 @@ document.addEventListener('click', function (event) {
         let throughputVariable = document.getElementById("userinput").value;
         console.log(throughputVariable);
         
-        // wiki api search part 2:
 
 
 
