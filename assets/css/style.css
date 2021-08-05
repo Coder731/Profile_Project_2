@@ -457,37 +457,7 @@ body {
 }
 /* Credit Comment End Neon Button */
 
-/* search bar: */
 
-/* https://www.mikedane.com/web-development/css/styling-search-bar/ */
-/* .wrapper { */
-    /* position: right; */
-    /* display: flex; */
-    /* min-width: 100px; */
-    /* https://stackoverflow.com/questions/4767971/how-do-i-center-floated-elements */
-        /* float: left;
-        position: relative; */
-    /* left: 40%; */
-/* } */
-
-/* .search-bar {
-    position: relative;
-    float: center;
-    width: 90%;
-} */
-
-/* .search-bar2 {
-    position: relative;
-    float: center;
-    width: 300%;
-} */
-
-    /* https://stackoverflow.com/questions/4767971/how-do-i-center-floated-elements */
-/* .centering-container {
-    float: left;
-    position: relative;
-    left: 40%;
-} */
 
 li.bulletless {
     /* https://www.w3docs.com/snippets/css/how-to-remove-replace-or-style-list-bullets-with-css.html */
