@@ -471,12 +471,10 @@ li.bulletless {
         display: grid;
         /* 3 of 4 order of top (left & right) bottom https://www.w3schools.com/CSSref/pr_padding.asp */
         grid-template-columns: auto auto auto;
-        /* background-color: #2196F3; */
         padding: 10px;
       }
       .grid-item {
         background-color: rgba(255, 255, 255, 0.8);
-        /* border: 1px solid rgba(0, 0, 0, 0.8); */
         padding: 20px;
         font-size: 30px;
         text-align: center;
