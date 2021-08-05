@@ -59,7 +59,7 @@ function getDataFromWiki(searchQuery) {
                 return response.json();
             })
             .then(function (response) {
-                return getSearchResultsFromData(response);//  Added Post Mentor Call 2  
+                return getSearchResultsFromData(response);//  Added Post Mentor Call 2  // Reference for writing commit: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises
             })
                 if (response.query.search[0].title==="Nelson Mandela") {
                     console.log("Your search page 'Nelson Mandela' exists on English Wikipedia");  
