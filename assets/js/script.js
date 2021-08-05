@@ -77,7 +77,7 @@ function getDataFromWiki(searchQuery) {
                     // use template literal to build Html code with url, reference for information: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
                     return `
                     <div>
-                    <a target="_blank" href="https://en.wikiedia.org/?curid=${eachResult.pageid}">
+                    <a target="_blank" href="https://en.wikipedia.org/?curid=${eachResult.pageid}">
                     ${eachResult.title}
                     </a>
                     </div>
