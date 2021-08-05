@@ -95,13 +95,18 @@ Phase: Attempt to interface with Yahoo finance API
 - Retrieve graph of results for historical financial data
 - Retrieve current stock price
     - not available from Polygon API without paid plan
-- Interface with Yahoo Finance API
-- Employ some sort of sorting algorithm taking top 10 search results and displaying only the top 2
+
     - Use this for multiple APIs so that all results displayed are top 2 from all APIs
     - Use weighted factors given to Relevance and Priority
 - Retrieve images
 - Employ simple calculations on pages other than home page
 - Customise mobile User Experience other than just using media queries for responsive view
+
+- Employ some sort of sorting algorithm taking top 10 search results and displaying only the top 2
+
+- Interface with Yahoo Finance API
+- Interface with Google Finance API
+
 - News Aggregator
 
 ## [References](#references-link-contents) <a id="references-link"></a>
