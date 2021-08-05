@@ -184,12 +184,11 @@ function getDataFromPolygon(searchQuery) {
         return fetch(url).then(function (response) {
             return response.json();
         })
-        
-        
         .catch(function(error){
             console.log(error);
         });
 }
+
         function getSearchResultsFromData(response) {
             return response.query.search;
         }  
