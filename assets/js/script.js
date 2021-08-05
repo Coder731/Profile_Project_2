@@ -87,17 +87,6 @@ function getDataFromWiki(searchQuery) {
             }
 
 
-
-
-
-
-
-
-
-
-
-
-
             // Duplicate code used for Wikimedia API and use as template for Polygon API:
 
 
