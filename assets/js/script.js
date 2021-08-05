@@ -72,7 +72,7 @@ function getDataFromWiki(searchQuery) {
         
 
 // Post Mentor Call 2:
-            function showWikiResults(reults) {
+            function showWikiResults(results) {
                 const resultsStr = results.map(eachResult => {//use arrow function, reference for information: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
                     // use template literal to build Html code with url, reference for information: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
                     return `
@@ -87,31 +87,12 @@ function getDataFromWiki(searchQuery) {
             }
 
 
-// Residual Code Block after Wikimedia API code working after Mentor Call 2 :
-
-//The vanilla JS way to listen for click events (Reference(9))
-document.addEventListener('click', function (event) {
-	if (!event.target.matches('.search-bar')) return;  // If the clicked element doesn't have the right selector, bail
-	event.preventDefault();  // Don't follow the link
-
-
-        // https://stackoverflow.com/questions/21338476/addeventlistener-on-form-submit
-        document.getElementById('userinput').addEventListener('submit', function(event){
-            event.preventDefault();
-            let newSearchSubmitted=""; newSearchSubmitted = document.getElementById('userinput').value;
-            console.log(newSearchSubmitted);
-            alert(newSearchSubmitted);
-        })
-
-        let throughputVariable = document.getElementById("userinput").value;
-        console.log(throughputVariable);
-        
 
 
 
 
 
-}, false)// Brackets and Boolean added to close out listener
+
 
             let polygonVariable="https://api.polygon.io/v2/aggs/ticker/AAPL/range/1/day/2020-06-01/2020-06-17?apiKey=7NrgP4WkAHfhk8wvUn3Nrpn7MxaxDl5m"
 
