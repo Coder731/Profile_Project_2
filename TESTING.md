@@ -64,6 +64,7 @@ Problem Part 2: Link not working when clicked
   - Not on a certain exchange
   - Not featured on API 
   - Potentially NASDAQ stocks?
+    - HOOD (Robinhood) is a NASDAQ stock
   - Potentially restriction on Polygon API free version
 
 #### Reload bug
