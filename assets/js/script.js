@@ -94,18 +94,7 @@ function getDataFromWiki(searchQuery) {
 
 
 
-            let polygonVariable="https://api.polygon.io/v2/aggs/ticker/AAPL/range/1/day/2020-06-01/2020-06-17?apiKey=7NrgP4WkAHfhk8wvUn3Nrpn7MxaxDl5m"
 
-            // https://github.com/polygon-io/client-js
-
-            // usage
-            // Authentication
-            // call the desired client with your api key to initialize it
-
-            const rest = restClient("7NrgP4WkAHfhk8wvUn3Nrpn7MxaxDl5m");
-
-            // https://polygon.io/docs/get_v2_ticks_stocks_nbbo__ticker___date__anchor
-            // Step 3 of 4:
 
 
 
