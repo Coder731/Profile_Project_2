@@ -67,7 +67,7 @@ Plan: To attempt to make a project with:
         - parsing to extract data from json object
         - always use proper linting for readability
 
-Phase: Attempt to interface with Yahoo API
+Phase: Attempt to interface with Yahoo finance API
 
 ## [Features](#features-link-contents) <a id="features-link"></a>
 
