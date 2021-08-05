@@ -8,6 +8,7 @@
 ## [Design](#design-link) <a id="design-link-contents"></a>
 ## [Testing](#testing-link) <a id="testing-link-contents"></a>
 ## [Wireframe](#wireframe-link) <a id="wireframe-link-contents"></a>
+## [Unimplemented](#unimplemented-link) <a id="unimplemented-link-contents"></a>
 ## [References](#references-link) <a id="references-link-contents"></a>
 ### [Search](#search-link) <a id="search-link-contents"></a>
 #### [DOM Event Listener](#dom-event-listener-link) <a id="dom-event-listener-link-contents"></a>
@@ -82,6 +83,19 @@ Plan: To attempt to make a project with:
 ## [Wireframe](#wireframe-link-contents) <a id="wireframe-link"></a>
 
 -![wireframe homepage](assets/images/homepage_wireframe.png)
+
+## [Unimplemented](#unimplemented-link-contents) <a id="unimplemented-link"></a>
+
+- Retrieve graph of results for historical financial data
+- Retrieve current stock price
+    - not available from Polygon API without paid plan
+- Interface with Yahoo Finance API
+- Employ some sort of sorting algorithm taking top 10 search results and displaying only the top 2
+    - Use this for multiple APIs so that all results displayed are top 2 from all APIs
+    - Use weighted factors given to Relevance and Priority
+- Retrieve images
+- Employ simple calculations on pages other than home page
+- Customise mobile User Experience other than just using media queries for responsive view
 
 ## [References](#references-link-contents) <a id="references-link"></a>
 
