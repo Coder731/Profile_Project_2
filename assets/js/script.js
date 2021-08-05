@@ -61,13 +61,16 @@ function getDataFromWiki(searchQuery) {
             .then(function (response) {
                 return getSearchResultsFromData(response);//  Added Post Mentor Call 2  // Reference for writing commit: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises
             })
-                if (response.query.search[0].title==="Nelson Mandela") {
-                    console.log("Your search page 'Nelson Mandela' exists on English Wikipedia");  
-                }  
-            })
+            
             .catch(function(error){
                 console.log(error);
             });
+}
+            if (response.query.search[0].title==="Nelson Mandela") {
+                console.log("Your search page 'Nelson Mandela' exists on English Wikipedia");  
+            }  
+        
+
                 console.log(url);
                 let url2= "https://en.wikipedia.org/?curid=<pageId>"
                 console.log(url2);
@@ -78,7 +81,7 @@ function getDataFromWiki(searchQuery) {
     params.srsearch=searchString; 
     console.log("params.srsearch: "+params.srsearch); 
     return params.srsearch; 
-}
+
 
 //The vanilla JS way to listen for click events (Reference(9))
 document.addEventListener('click', function (event) {
