@@ -57,7 +57,6 @@ function getDataFromWiki(searchQuery) {
 document.addEventListener('click', function (event) {
 	if (!event.target.matches('.search-bar')) return;  // If the clicked element doesn't have the right selector, bail
 	event.preventDefault();  // Don't follow the link
-    // (Reference (10))|log time of click|Get current time in Hours24: Minutes: Seconds format in JavaScript|(Reference(11))|(Reference (12))|Display minutes and seconds as two digits:
 
 
         // https://stackoverflow.com/questions/21338476/addeventlistener-on-form-submit
@@ -113,9 +112,9 @@ document.addEventListener('click', function (event) {
 7. https://www.youtube.com/watch?v=SWkPXbQXArk&t=1s
 8. 
 9. https://gomakethings.com/listening-for-click-events-with-vanilla-javascript/#the-vanilla-js-way-to-listen-for-click-events
-10. https://www.w3docs.com/snippets/javascript/how-to-get-a-timestamp-in-javascript.html
-11. https://www.includehelp.com/code-snippets/get-current-time-in-hours24-minutes-seconds-format-in-javascript.aspx
-12. https://stackoverflow.com/questions/8935414/getminutes-0-9-how-to-display-two-digit-numbers
+10. 
+11. 
+12. 
 13.
 14. 
 15.                                          */
