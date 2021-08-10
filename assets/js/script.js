@@ -27,8 +27,8 @@ const API_URL = "https://en.wikipedia.org/w/api.php";// Mentor directed this var
             // pass wikiResults into showWikiResults function:
             showWikiResults(wikiResults);
 
-        }// closing curly bracket for if statement
-    });// closing curly bracket for async function and closing parenthesis for listener
+        }
+    });
 
     // new function with searchQuery passed in:
 function getDataFromWiki(searchQuery) {   
