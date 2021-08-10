@@ -56,6 +56,8 @@ function getDataFromWiki(searchQuery) {
 
             // Added return to start of fetch method:
             return fetch(url).then(function(response) {
+                // For Development: Add log of object:
+                console.log(response.json());
                 return response.json();
             })
             .then(function (response) {
