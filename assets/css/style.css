@@ -490,3 +490,18 @@ li.bulletless {
       #userinput {
           width: 100%;
       }
+
+/* Format results: */
+/* Add Card: */
+#result-card {
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 20px;
+    padding: 20px;
+    color: black;
+}
+
