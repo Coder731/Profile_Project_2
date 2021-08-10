@@ -30,12 +30,12 @@ const API_URL = "https://en.wikipedia.org/w/api.php";// Mentor directed this var
         }// closing curly bracket for if statement
     });// closing curly bracket for async function and closing parenthesis for listener
 
-    // Post Mentor Call 2: new function with searchQuery passed in:
+    // new function with searchQuery passed in:
 function getDataFromWiki(searchQuery) {   
     
-    // Post Mentor Call 2: Moved this code block here:
+    // Moved this code block here:
 
-            // Post Mentor Call 2: Use correct linting:
+            // Use correct linting:
                     // wiki api search part 2:
 
             var params = {    
@@ -54,7 +54,7 @@ function getDataFromWiki(searchQuery) {
                 url += "&" + key + "=" + params[key];
             });
 
-            // Post Mentor Call 2: Added return to start of fetch method:
+            // Added return to start of fetch method:
             return fetch(url).then(function(response) {
                 return response.json();
             })
@@ -71,7 +71,6 @@ function getDataFromWiki(searchQuery) {
             }  
         
 
-// Post Mentor Call 2:
             function showWikiResults(results) {
                 const resultsStr = results.map(eachResult => {//use arrow function, reference for information: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
                     // use template literal to build Html code with url, reference for information: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
@@ -113,15 +112,11 @@ userInput.addEventListener("keyup", async function (event) {
         // pass wikiResults into showPolygonResults function:
         showPolygonResults(results);
 
-    }// closing curly bracket for if statement
-});// closing curly bracket for async function and closing parenthesis for listener
+    }
+});
 
-// Post Mentor Call 2: new function with searchQuery passed in:
+// new function with searchQuery passed in:
 function getDataFromPolygon(searchQuery) {   
-
-// Post Mentor Call 2: 
-
-
 
         // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
         // The let statement declares a block-scoped local variable.
@@ -137,7 +132,7 @@ function getDataFromPolygon(searchQuery) {
 
 
 
-        // Post Mentor Call 2: Added return to start of fetch method:
+        // Added return to start of fetch method:
         return fetch(url).then(function (response) {
             return response.json();
         })
@@ -146,8 +141,6 @@ function getDataFromPolygon(searchQuery) {
         });
 }
 
-
-// Post Mentor Call 2:
         function showPolygonResults(results) {
             const resultsStr = 
                 // use template literal to build Html code with url, reference for information: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
@@ -162,13 +155,6 @@ function getDataFromPolygon(searchQuery) {
             ;
             document.getElementById("polygon-output").innerHTML = resultsStr;
         }
-
-
-// Attempt to add Yahoo API
-
-`https://yfapi.net/v6/finance/quote?region=US&lang=en&symbols=AAPL%2CBTC-USD%2CEURUSD%3DX`
-
-
 
 /* References:
 1. https://www.w3schools.com/jsref/jsref_gettime.asp
