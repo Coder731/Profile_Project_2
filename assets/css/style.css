@@ -521,3 +521,7 @@ li.bulletless {
     font-size: 12px;
     color: grey;
 }
+
+#results-internal-div2 {
+    text-align: right;
+}
