@@ -1,6 +1,6 @@
 // See References at end of code for website addresses (to save space in code ) e.g. "// (Reference (1))", in code commments, refers to 1st Reference, given in last comment of this file, at end of code.
 // JavaScript getTime() Method (Reference (1))    // JavaScript getTime() Method    // Try It Yourself  (Reference (2))
-const API_URL = "https://en.wikipedia.org/w/api.php";// Mentor directed this variable name and const declaration rather than var
+const WIKI_BASE_API_URL = "https://en.wikipedia.org/w/api.php";// Mentor directed this variable name and const declaration rather than var
 
 
 // Simple Search in JavaScript [JavaScript Series]  (Reference(7))
@@ -47,7 +47,7 @@ function getDataFromWiki(searchQuery) {
     
             // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
             // The let statement declares a block-scoped local variable:
-            let url = API_URL + "?origin=*";
+            let url = WIKI_BASE_API_URL + "?origin=*";
 
 
             Object.keys(params).forEach(function(key){
