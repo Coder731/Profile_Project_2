@@ -75,6 +75,12 @@ Problem Part 2: Link not working when clicked
   - "the form is not secure autofill has been turned off"
 - Therefore, code removed.
 
+#### [Style css declaration text align does not have expected result]
+- Situation: Using text align in a declaration in a div within another div.
+- Problem: setting text align to right does not move element from right of page
+- Troubleshooting:
+  - Setting text align to left has no effect
+
 #### Reload bug
 
 - Need to reload page to start search string again if make mistake.
