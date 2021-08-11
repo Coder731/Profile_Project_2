@@ -82,6 +82,9 @@ function getDataFromWiki(searchQuery) {
                     <a target="_blank" href="https://en.wikipedia.org/?curid=${eachResult.pageid}">
                     ${eachResult.title}
                     </a>
+                    ${eachResult.snippet}	
+                    ${eachResult.timestamp}	
+                    ${eachResult.wordcount}
                     </div>
                     `
                 });
