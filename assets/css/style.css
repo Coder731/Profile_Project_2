@@ -523,5 +523,6 @@ li.bulletless {
 }
 
 #results-internal-div2 {
+    /*Note: this Declaration does not seem to have the expected result of sending date to the right:*/
     text-align: right;
 }
