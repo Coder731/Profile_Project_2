@@ -71,6 +71,7 @@ Plan: To attempt to make a project with:
 
 - Phase:
     - Add two columns
+        - use: [How to create a two column layout using Flexbox in CSS](https://www.amitmerchant.com/how-to-create-two-column-layout-using-flexbox-css/)
 
 
 ## [Features](#features-link-contents) <a id="features-link"></a>
