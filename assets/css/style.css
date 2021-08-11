@@ -473,13 +473,8 @@ li.bulletless {
         grid-template-columns: auto auto auto;
         padding: 10px;
       }
-      .grid-item {
-        background-color: rgba(255, 255, 255, 0.8);
-        padding: 20px;
-        font-size: 30px;
-        text-align: center;
-        vertical-align: top;
-      }
+
+      /*class grid-item removed for two column approach*/
 
       ul.search-bar {
           padding: 0;
@@ -526,3 +521,21 @@ li.bulletless {
     /*Note: this Declaration does not seem to have the expected result of sending date to the right:*/
     text-align: right;
 }
+
+/* Reference Comment: (Start) */
+/* https://www.amitmerchant.com/how-to-create-two-column-layout-using-flexbox-css/ */
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-left {
+    width: 75%;
+    height: 20vh;
+}
+
+.flex-right {
+    width: 25%;
+}
+/* Reference Comment (End) */
+/* https://www.amitmerchant.com/how-to-create-two-column-layout-using-flexbox-css/ */

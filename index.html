@@ -53,22 +53,51 @@
 
                     <div class="grid-container">
                         <div class="grid-item"></div>
-                        <div class="grid-item" id="central-grid-item">
+                            <!-- Reference Comment (Start):
+                            https://www.amitmerchant.com/how-to-create-two-column-layout-using-flexbox-css/ -->
 
-                            <ul class="search-bar">
-                                <li class="bulletless">
-                                <form onsubmit="return false">
-                                    <input id="wiki-userinput" placeholder="Search"></input>
-                                </form>
-                                </li>
-                            </ul>
+                            <div class="flex-container">
+                                <div class="flex-left">
+                                    <div class="grid-item" id="central-grid-item">
 
-                                <!-- paragraph to contain output from js temporarily -->
-                                <p id = "wiki-output">
-                                    
-                                </p>
+                                        <ul class="search-bar">
+                                            <li class="bulletless">
+                                            <form onsubmit="return false">
+                                                <input id="wiki-userinput" placeholder="Search"></input>
+                                            </form>
+                                            </li>
+                                        </ul>
 
-                        </div>
+                                            <!-- paragraph to contain output from js temporarily -->
+                                            <p id = "wiki-output">
+                                                
+                                            </p>
+
+                                    </div>
+                                </div>
+                                <div class="flex-right">
+                                    <div class="grid-item" id="central-grid-item">
+
+                                        <ul class="search-bar">
+                                            <li class="bulletless">
+                                            <form onsubmit="return false">
+                                                <input id="wiki-userinput" placeholder="Search"></input>
+                                            </form>
+                                            </li>
+                                        </ul>
+
+                                            <!-- paragraph to contain output from js temporarily -->
+                                            <p id = "wiki-output">
+                                                
+                                            </p>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Reference Comment (End)
+                            https://www.amitmerchant.com/how-to-create-two-column-layout-using-flexbox-css/ -->
+
                         <div class="grid-item"></div>  
                         </div>
                     </div>
