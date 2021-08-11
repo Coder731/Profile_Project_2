@@ -512,3 +512,12 @@ li.bulletless {
 #span-placeholder {
     margin: 20px 0;
 }
+
+#results-internal-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 12px;
+    color: grey;
+}
