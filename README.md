@@ -76,6 +76,10 @@ Plan: To attempt to make a project with:
 - Phase:
     - Reinstate using two separate user input variables
         - One for each search bar
+            - From comment in script js: 
+                - Reinstating two user input variables: 
+                    - two lines (1 comment and 1 code line) reinstated from (lines 94 and 95 of) Commit: c6c5881
+
 
 ## [Features](#features-link-contents) <a id="features-link"></a>
 
