@@ -69,6 +69,8 @@ Plan: To attempt to make a project with:
 
 - Phase: Mentor Call 3
 
+- Phase:
+    - Add two columns
 
 
 ## [Features](#features-link-contents) <a id="features-link"></a>
