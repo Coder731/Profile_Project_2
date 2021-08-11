@@ -141,8 +141,7 @@ function getDataFromPolygon(searchQuery) {
         // Added return to start of fetch method:
         return fetch(url).then(function (response) {
             return response.json();
-        })
-        .catch(function(error){
+        }).catch(function(error){
             console.log(error);
         });
 }
