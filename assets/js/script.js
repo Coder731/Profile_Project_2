@@ -154,9 +154,7 @@ function getDataFromPolygon(searchQuery) {
                     <p>CEO: ${results.ceo}</p>
                     <p>description: ${results.description}</p>
                     <p>url: ${results.url}</p>
-                </div>
-                `
-            ;
+                </div>`;
             document.getElementById("polygon-output").innerHTML = resultsStr;
         }
 
