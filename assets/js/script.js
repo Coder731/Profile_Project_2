@@ -131,7 +131,7 @@ function getDataFromPolygon(searchQuery) {
         // https://polygon.io/docs/get_v1_meta_symbols__stocksTicker__company_anchor
 
         // modify url to use any ticker symbol, by passing in searchQuery to supply user inputted ticker symbol using a template literal:
-        const url = `${POLYGON_BASE_API_URL}/symbols/${searchQuery}/company?&apiKey=${POLYGON_API_KEY}`
+        const url = `${POLYGON_BASE_API_URL}/symbols/${searchQuery}/company?&apiKey=${POLYGON_API_KEY}git pu`
 
 
 
