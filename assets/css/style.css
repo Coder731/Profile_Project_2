@@ -508,3 +508,7 @@ li.bulletless {
 #company-title {
     color: #ac5555;
 }
+
+#span-placeholder {
+    margin: 20px 0;
+}
