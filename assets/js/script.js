@@ -94,12 +94,17 @@ function getDataFromWiki(searchQuery) {
 
             // Duplicate code used for Wikimedia API and use as template for Polygon API:
 
+// Revert to two user input variables used before the following comment was added:
+    // Instead of creating a new user input variable, reuse the original variable from Wikimedia API for use in Polygon API:
 
-// Instead of creating a new user input variable, reuse the original variable from Wikimedia API for use in Polygon API:
+// From comment two lines up, reinstating two user input variables: The following two lines (1 comment and 1 code line) reinstated from (lines 94 and 95 of) Commit: c6c5881
+    // Simple Search in JavaScript [JavaScript Series]  (Reference(7))
+    const polygonUserInput = document.getElementById('polygon-userinput');// Mentor directed using this id
+
 
 // Mentor directed to use this code for coding Enter press to trigger Submit button press:
 // https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp
-userInput.addEventListener("keyup", async function (event) {
+polygonUserInput.addEventListener("keyup", async function (event) {
 
     // next code block added as directed by mentor, sourced from https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp
 
@@ -108,7 +113,7 @@ userInput.addEventListener("keyup", async function (event) {
             event.preventDefault();
 
         // Mentor solved issue of how to take user input directly from input element using HTML DOM Input Text value Property, as described here: https://www.w3schools.com/jsref/prop_text_value.asp
-        const searchString=userInput.value// const, redesign and simplification of code as directed by mentor
+        const searchString=polygonUserInput.value// const, redesign and simplification of code as directed by mentor
 
         // results with await: if key event is 13, use await to wait for a promise inside the async function above, pass searchString into getDataFromPolygon function, save result in wikiResults
         // Referred to the following document for await usage:
