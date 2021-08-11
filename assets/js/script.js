@@ -1,7 +1,7 @@
 // See References at end of code for website addresses (to save space in code ) e.g. "// (Reference (1))", in code commments, refers to 1st Reference, given in last comment of this file, at end of code.
 // JavaScript getTime() Method (Reference (1))    // JavaScript getTime() Method    // Try It Yourself  (Reference (2))
 const WIKI_BASE_API_URL = "https://en.wikipedia.org/w/api.php";// Mentor directed this variable name and const declaration rather than var
-
+const POLYGON_BASE_API_URL = "https://api.polygon.io/v1/meta";
 
 // Simple Search in JavaScript [JavaScript Series]  (Reference(7))
     const userInput = document.getElementById('wiki-userinput');// Mentor directed using this id
@@ -130,7 +130,7 @@ function getDataFromPolygon(searchQuery) {
         // https://polygon.io/docs/get_v1_meta_symbols__stocksTicker__company_anchor
 
         // modify url to use any ticker symbol, by passing in searchQuery to supply user inputted ticker symbol using a template literal:
-        const url = `https://api.polygon.io/v1/meta/symbols/${searchQuery}/company?&apiKey=7NrgP4WkAHfhk8wvUn3Nrpn7MxaxDl5m`
+        const url = `${POLYGON_BASE_API_URL}/symbols/${searchQuery}/company?&apiKey=7NrgP4WkAHfhk8wvUn3Nrpn7MxaxDl5m`
 
 
 
