@@ -60,13 +60,19 @@
                                 <div class="flex-left">
                                     <div class="grid-item" id="central-grid-item">
 
-                                        <ul class="search-bar">
-                                            <li class="bulletless">
+                                            <!-- paragraph to contain output from js temporarily -->
+                                            <p id = "wiki-output">
+                                                
+                                            </p>
+
+                                        <ul class="search-bar2 flex-class">
+                                            <li class="bulletless flex-class">
                                             <form onsubmit="return false">
-                                                <input id="wiki-userinput" placeholder="Search"></input>
+                                                <input id="wiki-userinput" placeholder="Search" class="search-bar flex-class"></input>
                                             </form>
                                             </li>
                                         </ul>
+                                        <div class="grid-item"></div>  
 
                                             <!-- paragraph to contain output from js temporarily -->
                                             <p id = "wiki-output">
@@ -81,7 +87,7 @@
                                         <ul class="search-bar">
                                             <li class="bulletless">
                                             <form onsubmit="return false">
-                                                <input id="wiki-userinput" placeholder="Search"></input>
+                                                <input id="polygon-userinput" placeholder="Search"></input>
                                             </form>
                                             </li>
                                         </ul>
@@ -116,34 +122,66 @@
 
                         </div>
                         <div class="grid-item"></div>  
-                        </div>
                     </div>
-                    <div id="result-card">
-                        <h1>
-                            <!-- Results placeholder content (website and Company Title): -->
-                            <a target="_blank" href="https://en.wikipedia.org/?curid=856" id="company-title">
-                                Apple Inc.
-                            </a>
-                        </h1>
-                        <span id="span-placeholder">
-                            Placeholder (Pass in information using the following or similar: Promise.Object.query.search[0].snippet) discontinued in its second year. On December 12, 1980, Apple 
-                                (
-                                    ticker symbol 
-                                        "
-                                            <span class="\&quot;searchmatch\&quot;">AAPL</span>
-                                        "
-                                ) 
-                            went public selling 4.6 million shares at $22 per share ($.39 per share
-                        </span>
-                        <div id="results-internal-div">
-                            <div id="results-internal-div2">
-                                25th March 2021
-                            </div>
-                            <span>
-                                4000 words
+                </div>
+                <div class="flex-container">
+                    <div class="flex-left">
+                        <div id="result-card">
+                            <h1>
+                                <!-- Results placeholder content (website and Company Title): -->
+                                <a target="_blank" href="https://en.wikipedia.org/?curid=856" id="company-title">
+                                    Apple Inc.
+                                </a>
+                            </h1>
+                            <span id="span-placeholder">
+                                Placeholder (Pass in information using the following or similar: Promise.Object.query.search[0].snippet) discontinued in its second year. On December 12, 1980, Apple 
+                                    (
+                                        ticker symbol 
+                                            "
+                                                <span class="\&quot;searchmatch\&quot;">AAPL</span>
+                                            "
+                                    ) 
+                                went public selling 4.6 million shares at $22 per share ($.39 per share
                             </span>
+                            <div id="results-internal-div">
+                                <div id="results-internal-div2">
+                                    25th March 2021
+                                </div>
+                                <span>
+                                    4000 words
+                                </span>
+                            </div>
                         </div>
                     </div>
+                    <div class="flex-right">
+                        <div id="result-card">
+                            <h1>
+                                <!-- Results placeholder content (website and Company Title): -->
+                                <a target="_blank" href="https://en.wikipedia.org/?curid=856" id="company-title">
+                                    Apple Inc.
+                                </a>
+                            </h1>
+                            <span id="span-placeholder">
+                                Placeholder (Pass in information using the following or similar: Promise.Object.query.search[0].snippet) discontinued in its second year. On December 12, 1980, Apple 
+                                    (
+                                        ticker symbol 
+                                            "
+                                                <span class="\&quot;searchmatch\&quot;">AAPL</span>
+                                            "
+                                    ) 
+                                went public selling 4.6 million shares at $22 per share ($.39 per share
+                            </span>
+                            <div id="results-internal-div">
+                                <div id="results-internal-div2">
+                                    25th March 2021
+                                </div>
+                                <span>
+                                    4000 words
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
         </main>
         <footer>

@@ -530,12 +530,12 @@ li.bulletless {
 }
 
 .flex-left {
-    width: 75%;
+    width: 50%;
     height: 20vh;
 }
 
 .flex-right {
-    width: 25%;
+    width: 50%;
 }
 /* Reference Comment (End) */
 /* https://www.amitmerchant.com/how-to-create-two-column-layout-using-flexbox-css/ */

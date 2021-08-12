@@ -23,8 +23,8 @@ const POLYGON_API_KEY = "7NrgP4WkAHfhk8wvUn3Nrpn7MxaxDl5m";
             // From Mentor Call: wikiResults with await: if key event is 13, use await to wait for a promise inside the async function above, pass searchString into getDataFromWiki function, save result in wikiResults
             // Referred to the following document for await usage:
             // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await
-            const wikiResults = await getDataFromWiki(searchString);
-        
+            const wikiResults = getSearchResultsFromData(await getDataFromWiki(searchString))
+            console.log(wikiResults)
             // pass wikiResults into showWikiResults function:
             showWikiResults(wikiResults);
 
@@ -58,12 +58,12 @@ function getDataFromWiki(searchQuery) {
             // Added return to start of fetch method:
             return fetch(url).then(function(response) {
                 // For Development: Add log of object:
-                console.log(response.json());
-                return response.json();
+                // console.log(response.json());
+                return response.json()
             })
-            .then(function (response) {
-                return getSearchResultsFromData(response);//  Added Post Mentor Call 2  // Reference for writing commit: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises
-            })
+            // .then(function (response) {
+            //     return getSearchResultsFromData(response);//  Added Post Mentor Call 2  // Reference for writing commit: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises
+            // })
             
             .catch(function(error){
                 console.log(error);
