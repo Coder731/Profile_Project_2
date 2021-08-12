@@ -80,6 +80,38 @@ Plan: To attempt to make a project with:
                 - Reinstating two user input variables: 
                     - two lines (1 comment and 1 code line) reinstated from (lines 94 and 95 of) Commit: c6c5881
 
+- Phase:
+    - Tutor helped get results to display
+        - Images used in troubleshooting:
+            - Picture for communicating start of project ![Schematic of project](assets/images/schematic_of_project.png)
+            - ![homepage showing results from old commit c6c5881](assets/images/homepage_showing_results_from_old_commit_c6c5881.png)
+            - ![overview comparing code to output](assets/images/overview_comparing_code_to_output.png)
+            - The polygon API was returning results but not the wikimedia API ![polygon results returning not wikimedia api](assets/images/polygon_results_returning_not_wikimedia_api.png)
+            - ![returned polygon results highlighted](assets/images/returned_polygon_results_highlighted.png)
+            - ![assessing functional blocks of code](assets/images/assessing_functional_blocks_of_code.png)
+            - ![html code flex right](assets/images/html_code_flex_right.png)
+            - ![html code flex container](assets/images/html_code_flex_container.png)
+    - Solution:
+        - Unexplainedly, removing a console log of the json method applied to the response object in the fetch function, allowed results to be displayed.
+        - Removed then method from fetch function for url
+        - wiki Results variable getting the results of the wikimedia API, was set equal to a function called get search results from data which took in an await on another function called get data from wiki, which in turn took in the user inputted search string.
+        - the outer most function in the last point above was missing before this change
+
+    - Tutor helped suggested to format results:
+        - using Document Object Model
+            - get Element By Id 
+                - to get the element with id of polygon result heading
+                    - give an element id polygon result heading
+                - set text Content to results object, name property
+        - use results object items:
+            - name 
+            - ceo 
+            - description 
+                and
+            - url
+                - These four listed items are currently stored in paragraphsin results string variable in script js
+        - edit HTML for the Card to contain elements to house the listed items in previous point
+        - adjust results function to target elements and pass in results
 
 ## [Features](#features-link-contents) <a id="features-link"></a>
 
