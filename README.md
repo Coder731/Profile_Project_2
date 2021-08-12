@@ -112,8 +112,13 @@ Plan: To attempt to make a project with:
                 - These four listed items are currently stored in paragraphsin results string variable in script js
         - edit HTML for the Card to contain elements to house the listed items in previous point
         - adjust results function to target elements and pass in results
-
+### Deployment
+- Site was deployed to github pages here:
+    - [https://coder731.github.io/Profile_Project_2/](https://coder731.github.io/Profile_Project_2/)
 ## [Features](#features-link-contents) <a id="features-link"></a>
+### Responsiveness
+- Tested at [Am I Responsive](http://ami.responsivedesign.is/#)
+### 
 
 - Two Search bars
 

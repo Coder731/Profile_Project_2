@@ -540,3 +540,21 @@ li.bulletless {
 /* Reference Comment (End) */
 /* https://www.amitmerchant.com/how-to-create-two-column-layout-using-flexbox-css/ */
 
+#instructions {
+    color: crimson;
+    text-align: center;
+}
+#main-heading {
+    padding:10px;
+    color: black;
+    text-align:center;
+}
+header {
+    height: 10vh;
+}
+
+footer {
+    text-align: right;
+    height: 10vh;
+    color: black;
+}
