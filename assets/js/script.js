@@ -75,10 +75,15 @@ function getDataFromWiki(searchQuery) {
         
 
             function showWikiResults(results) {
-                const resultsStr = results.map(eachResult => {//use arrow function, reference for information: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+
+                let resultsStr = "";
+
+                results.map(eachResult => {
+                    //use arrow function, reference for information: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
                     // use template literal to build Html code with url, reference for information: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
-                    return `
-                    <div>
+                    
+                    resultsStr += `
+                    <div class="result-card">
                     <a target="_blank" href="https://en.wikipedia.org/?curid=${eachResult.pageid}">
                     ${eachResult.title}
                     </a>
@@ -89,6 +94,7 @@ function getDataFromWiki(searchQuery) {
                     `
                 });
                 document.getElementById("wiki-output").innerHTML = resultsStr;
+                console.log(resultsStr);
             }
 
 

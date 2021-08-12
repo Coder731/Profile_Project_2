@@ -488,7 +488,7 @@ li.bulletless {
 
 /* Format results: */
 /* Add Card: */
-#result-card {
+.result-card {
     min-height: 200px;
     display: flex;
     flex-direction: column;
