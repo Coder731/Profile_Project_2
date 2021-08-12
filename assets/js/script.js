@@ -157,7 +157,14 @@ function getDataFromPolygon(searchQuery) {
             document.getElementById('polygon-result-name').textContent = results.name
             document.getElementById('polygon-result-ceo').textContent = results.ceo
             document.getElementById('polygon-result-description').textContent = results.description
-            document.getElementById('polygon-result-url').innerHTML = `<a href=${results.url}></a>`
+
+            let a = document.createElement('a');
+            a.setAttribute('href',desiredLink);
+            a.innerHTML = `${results.url}`;
+            // append the anchor to the element you want in the dom
+            document.getElementsById("polygon-result-url").appendChild(a);
+
+            // document.getElementById('polygon-result-url').innerHTML = `<a href=${results.url}></a>`
 
             // const resultsStr = `
             //     <div>
