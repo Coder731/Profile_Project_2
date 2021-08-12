@@ -139,12 +139,12 @@ function getDataFromPolygon(searchQuery) {
         // https://polygon.io/docs/get_v1_meta_symbols__stocksTicker__company_anchor
 
         // modify url to use any ticker symbol, by passing in searchQuery to supply user inputted ticker symbol using a template literal:
-        const url = `${POLYGON_BASE_API_URL}/symbols/${searchQuery}/company?&apiKey=${POLYGON_API_KEY}`
+        const poly_url = `${POLYGON_BASE_API_URL}/symbols/${searchQuery}/company?&apiKey=${POLYGON_API_KEY}`
 
 
 
         // Added return to start of fetch method:
-        return fetch(url).then(function (response) {
+        return fetch(poly_url).then(function (response) {
             return response.json();
         }).catch(function(error){
             console.log(error);
@@ -159,7 +159,7 @@ function getDataFromPolygon(searchQuery) {
             document.getElementById('polygon-result-description').textContent = results.description
 
             let a = document.createElement('a');
-            a.setAttribute('href',desiredLink);
+            a.setAttribute('href',`${results.url}`);
             a.innerHTML = `${results.url}`;
             // append the anchor to the element you want in the dom
             document.getElementsById("polygon-result-url").appendChild(a);
@@ -173,6 +173,10 @@ function getDataFromPolygon(searchQuery) {
             //         <p>description: ${results.description}</p>
             //         <p>url: ${results.url}</p>
             //     </div>`;
+
+                // console logging results and results.url
+                console.log(results);
+                console.log(results.url);
 
             document.getElementById("polygon-output").innerHTML = resultsStr;
         }
