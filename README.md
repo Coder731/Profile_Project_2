@@ -97,7 +97,7 @@ Plan: To attempt to make a project with:
         - wiki Results variable getting the results of the wikimedia API, was set equal to a function called get search results from data which took in an await on another function called get data from wiki, which in turn took in the user inputted search string.
         - the outer most function in the last point above was missing before this change
 
-    - Tutor helped suggested to format results:
+    - Tutor helped, suggested to format results:
         - using Document Object Model
             - get Element By Id 
                 - to get the element with id of polygon result heading
