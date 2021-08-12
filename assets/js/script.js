@@ -153,13 +153,20 @@ function getDataFromPolygon(searchQuery) {
 
         function showPolygonResults(results) {
             // use template literal to build Html code with url, reference for information: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
-            const resultsStr = `
-                <div>
-                    <p>Name: ${results.name}</p>
-                    <p>CEO: ${results.ceo}</p>
-                    <p>description: ${results.description}</p>
-                    <p>url: ${results.url}</p>
-                </div>`;
+
+            document.getElementById('polygon-result-name').textContent = results.name
+            document.getElementById('polygon-result-ceo').textContent = results.ceo
+            document.getElementById('polygon-result-description').textContent = results.description
+            document.getElementById('polygon-result-url').innerHTML = `<a href=${result.url}>sdfgsdfg</a>`
+
+            // const resultsStr = `
+            //     <div>
+            //         <p>Name: ${results.name}</p>
+            //         <p>CEO: ${results.ceo}</p>
+            //         <p>description: ${results.description}</p>
+            //         <p>url: ${results.url}</p>
+            //     </div>`;
+
             document.getElementById("polygon-output").innerHTML = resultsStr;
         }
 
