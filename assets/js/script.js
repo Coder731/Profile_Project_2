@@ -162,7 +162,7 @@ function getDataFromPolygon(searchQuery) {
             a.setAttribute('href',`${results.url}`);
             a.innerHTML = `${results.url}`;
             // append the anchor to the element you want in the dom
-            document.getElementsById("polygon-result-url").appendChild(a);
+            document.getElementById("polygon-result-url").appendChild(a);
 
             // document.getElementById('polygon-result-url').innerHTML = `<a href=${results.url}></a>`
 
