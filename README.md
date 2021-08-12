@@ -83,14 +83,14 @@ Plan: To attempt to make a project with:
 - Phase:
     - Tutor helped get results to display
         - Images used in troubleshooting:
-            - Picture for communicating start of project ![Schematic of project](assets/images/schematic_of_project.png)
-            - ![homepage showing results from old commit c6c5881](assets/images/homepage_showing_results_from_old_commit_c6c5881.png)
-            - ![overview comparing code to output](assets/images/overview_comparing_code_to_output.png)
-            - The polygon API was returning results but not the wikimedia API ![polygon results returning not wikimedia api](assets/images/polygon_results_returning_not_wikimedia_api.png)
-            - ![returned polygon results highlighted](assets/images/returned_polygon_results_highlighted.png)
-            - ![assessing functional blocks of code](assets/images/assessing_functional_blocks_of_code.png)
-            - ![html code flex right](assets/images/html_code_flex_right.png)
-            - ![html code flex container](assets/images/html_code_flex_container.png)
+            - Picture for communicating start of project: ![Schematic of project](assets/images/schematic_of_project.png)
+            - Homepage showing results from old commit c6c5881: ![homepage showing results from old commit c6c5881](assets/images/homepage_showing_results_from_old_commit_c6c5881.png)
+            - Overview comparing code to output: ![overview comparing code to output](assets/images/overview_comparing_code_to_output.png)
+            - The polygon API was returning results but not the wikimedia API: ![polygon results returning not wikimedia api](assets/images/polygon_results_returning_not_wikimedia_api.png)
+            - Returned polygon results highlighted: ![returned polygon results highlighted](assets/images/returned_polygon_results_highlighted.png)
+            - Assessing functional blocks of code: ![assessing functional blocks of code](assets/images/assessing_functional_blocks_of_code.png)
+            - Html code flex right: ![html code flex right](assets/images/html_code_flex_right.png)
+            - Html code flex container: ![html code flex container](assets/images/html_code_flex_container.png)
     - Solution:
         - Unexplainedly, removing a console log of the json method applied to the response object in the fetch function, allowed results to be displayed.
         - Removed then method from fetch function for url
