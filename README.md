@@ -118,9 +118,25 @@ Plan: To attempt to make a project with:
 ## [Features](#features-link-contents) <a id="features-link"></a>
 ### Responsiveness
 - Tested at [Am I Responsive](http://ami.responsivedesign.is/#)
-### 
+- [Responsiveness Result](assets/images/responsive.png)
+### Validation
+- HTML
+- w3c
+    - 5 Warnings (empty headings needed for JS to work) 
+        - [W3C](assets/images/w3cvalidator.PNG)
 
 - Two Search bars
+
+- JavaScript
+- Site Used: [https://validatejavascript.com/](https://validatejavascript.com/)
+    - Result
+        - Mostly document not defined
+- JS validation result[JS validation result](assets/js/js_validate.png)
+
+- CSS
+- site used [Jigsaw W3](http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2F5504-ivory-frog-jtd88jxu.ws-eu15.gitpod.io%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- Result [CSS Validation](assets/css/css_validation.png)
+
 
 ## [Design](#design-link-contents) <a id="design-link"></a>
 

@@ -1,5 +1,5 @@
-// See References at end of code for website addresses (to save space in code ) e.g. "// (Reference (1))", in code commments, refers to 1st Reference, given in last comment of this file, at end of code.
-// JavaScript getTime() Method (Reference (1))    // JavaScript getTime() Method    // Try It Yourself  (Reference (2))
+// See References at end of code for website addresses 
+//  (Reference (1))  (Reference (2))
 const WIKI_BASE_API_URL = "https://en.wikipedia.org/w/api.php";// Mentor directed this variable name and const declaration rather than var
 const POLYGON_BASE_API_URL = "https://api.polygon.io/v1/meta";
 const POLYGON_API_KEY = "7NrgP4WkAHfhk8wvUn3Nrpn7MxaxDl5m";
