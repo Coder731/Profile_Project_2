@@ -157,7 +157,7 @@ function getDataFromPolygon(searchQuery) {
             document.getElementById('polygon-result-name').textContent = results.name
             document.getElementById('polygon-result-ceo').textContent = results.ceo
             document.getElementById('polygon-result-description').textContent = results.description
-            document.getElementById('polygon-result-url').innerHTML = `<a href=${result.url}>sdfgsdfg</a>`
+            document.getElementById('polygon-result-url').innerHTML = `<a href=${results.url}></a>`
 
             // const resultsStr = `
             //     <div>
